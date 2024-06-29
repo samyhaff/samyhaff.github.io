@@ -32,7 +32,7 @@ I created this site because I wanted to share my thoughts, projects and anything
 * **Reseach internship in deep learning for audio processing**, Thales R&T, Saclay, France, 2022 (5 months)
 * **SOC Intern**, Atos, Bezons, France, 2021 (1 months)
 
-# Free time activities
+# Hobbies
 
 * Piano
 * Reading (Sci-Fi, classics...)
