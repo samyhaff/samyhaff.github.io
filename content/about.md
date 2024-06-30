@@ -11,30 +11,31 @@ I created this site because I wanted to share my thoughts, projects and anything
 
 <!-- more -->
 
-# Interests
+## Interests
 
-* Natural language processing
+* Natural Language Processing
 * Logic
 * Programming languages
 * Theoretical computer science
 * Free and open-source software
 
-# Education
+## Education
 
 * **MSc in Computer Science**, Technical University of Denmark, Lyngby, Denmark, 2022-2024
     * Master Thesis: "Implementation and Evaluation of Recent Neuroevolution Algorithms", supervised by Prof. [Carsten Witt](https://www.imm.dtu.dk/~cawi/)
 * **MEng** with a specialization in data and signal processing, Centrale Nantes, Nantes, France, 2020-2024
 * **Classes préparatoires aux grandes écoles**, Lycée Janson de Sailly, Paris, France, 2018-2020
 
-# Work experience
+## Work experience
 
 * **Student Software Engineer** (part time), Microsoft, Lygnby, Denmark, 2023-2024 (1.5 years)
 * **Reseach internship in deep learning for audio processing**, Thales R&T, Saclay, France, 2022 (5 months)
 * **SOC Intern**, Atos, Bezons, France, 2021 (1 months)
 
-# Hobbies
+## Hobbies
 
 * Piano
-* Reading (Sci-Fi, classics...)
+* [Reading](/books)
 * Long distance running
 * Weightlifting
+* Manga/Anime
