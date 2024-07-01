@@ -34,8 +34,8 @@ I created this site because I wanted to share my thoughts, projects and anything
 
 ## Hobbies
 
-* Piano
+* [Piano](/piano)
 * [Reading](/books)
-* Long distance running
+* [Long distance running](https://www.strava.com/athletes/126848062)
 * Weightlifting
 * Manga/Anime
