@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      
+      <meta name="description" content="My personal site" />
+      
+    
+
+      <title>Samy Haffoudhi</title>
+
+      
+
+      
+          <link rel="stylesheet" href="https://samyhaff.github.io/site.css">
+      
+
+      
+      
+    </head>
+
+    <body class="hack dark main container">
+        
+    
+        
+                
+                    <header>
+                        <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io">
+                                <span itemprop="name">Home</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io/about">
+                                <span itemprop="name">About</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io/categories">
+                                <span itemprop="name">Categories</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://github.com/samyhaff">
+                                <span itemprop="name">Github</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="mailto:haffoudhisamy@gmail.com">
+                                <span itemprop="name">Contact</span></a>
+                        
+                        </nav>
+                    </header>
+                
+            
+    
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h1 itemprop="headline">Learning about LLMs</h1>
+        <span class="muted">
+    <svg class="icon i-clock" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <circle cx="16" cy="16" r="14"/>
+        <path d="M16 8 L16 16 20 20"/>
+    </svg>
+    <span>2 minute read</span>
+    <svg class="icon i-edit" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
+    </svg>
+
+    Published: 2024-06-29
+</span>
+    </header>
+    <div itemprop="articleBody">
+      <p>Here I will write about my journey learning about LLMs.</p>
+<span id="continue-reading"></span><h2 id="running-llms-locally">Running LLMs locally</h2>
+<p>The first thing I was interested in was running pretrained LLMs locally and learning about the tools and libraries available to do so.
+I have heard a lot about <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> and <a href="https://ollama.com">ollama</a> being used to run LLMs on Apple M series chips,
+so I wanted to try this out first.</p>
+<ul>
+<li><code>llama.cpp</code> allows for LLM inference in C++ on a variety of hardware and supports many models out of the box.</li>
+<li><code>ollama</code> is built around <code>llama.cpp</code>, it is more use-friendly and aims at further optimizing the performance and efficiency of <code>llama.cpp</code>. It is the one I chose to use.</li>
+</ul>
+<p>Running <code>ollama serve</code> starts up a server and <code>ollama run &lt;model&gt;</code> runs the specified model.
+Different models can be downloaded, imported from <a href="https://github.com/ggerganov/ggml/blob/master/docs/gguf.md">GGUF</a> files or customized with a prompt.
+<code>GGUF</code> is a binary format that is used for quick loading and saving of models.
+The tool also coffers a REST API to interact with the models and manage them.</p>
+<h3 id="example-usage">Example usage</h3>
+<p>This is starting <code>ollama</code>, and querying the <code>llama3</code> model (downloaded beforehand) with &quot;Why is the sky blue?&quot; as a prompt. The response is returned in JSON format,
+with the <code>response</code> field containing the generated text.</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">ollama</span><span> serve &amp;
+</span><span style="color:#bf616a;">curl</span><span> http://localhost:11434/api/generate</span><span style="color:#bf616a;"> -d </span><span>&#39;</span><span style="color:#a3be8c;">{
+</span><span style="color:#a3be8c;">  &quot;model&quot;: &quot;llama3&quot;,
+</span><span style="color:#a3be8c;">  &quot;prompt&quot;:&quot;Why is the sky blue?&quot;
+</span><span style="color:#a3be8c;">}</span><span>&#39;
+</span></code></pre>
+<p>If we are only interested in the response, we can use <code>jq</code> to extract it:</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span> </span><span style="color:#bf616a;">curl -s</span><span> http://localhost:11434/api/generate</span><span style="color:#bf616a;"> -d </span><span>&#39;</span><span style="color:#a3be8c;">{
+</span><span style="color:#a3be8c;">  &quot;model&quot;: &quot;llama3&quot;,
+</span><span style="color:#a3be8c;">  &quot;prompt&quot;: &quot;Why is the sky blue?&quot;,
+</span><span style="color:#a3be8c;">  &quot;stream&quot;: false
+</span><span style="color:#a3be8c;">}</span><span>&#39; | </span><span style="color:#bf616a;">jq </span><span>&#39;</span><span style="color:#a3be8c;">.response</span><span>&#39;
+</span></code></pre>
+<p>In addition, the reponse also returns a <code>context</code> field which can be used to keep a short conversational memory between requests by
+<a href="https://stephencowchau.medium.com/ollama-context-at-generate-api-output-what-are-those-numbers-b8cbff140d95">encoding/decoding the history of the conversation</a>.</p>
+<p>Now, here is a simple  shell script (vulnerable to JSON injection 🙂) showing how <code>ollama</code> can be used to generate text with a prompt:</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#65737e;">#!/bin/bash
+</span><span>
+</span><span style="color:#b48ead;">if </span><span style="color:#96b5b4;">[ </span><span style="color:#bf616a;">-z </span><span>&quot;$</span><span style="color:#bf616a;">1</span><span>&quot; </span><span style="color:#96b5b4;">]</span><span>; </span><span style="color:#b48ead;">then
+</span><span>  </span><span style="color:#96b5b4;">echo </span><span>&quot;</span><span style="color:#a3be8c;">Usage: </span><span>$</span><span style="color:#bf616a;">0 </span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">your prompt here</span><span style="color:#96b5b4;">\&quot;</span><span>&quot;
+</span><span>  </span><span style="color:#96b5b4;">exit</span><span> 1
+</span><span style="color:#b48ead;">fi
+</span><span>
+</span><span style="color:#bf616a;">prompt</span><span>=&quot;$</span><span style="color:#bf616a;">1</span><span>&quot;
+</span><span>
+</span><span style="color:#bf616a;">response</span><span>=$</span><span style="color:#a3be8c;">(</span><span style="color:#bf616a;">curl -s</span><span style="color:#a3be8c;"> http://localhost:11434/api/generate</span><span style="color:#bf616a;"> -d </span><span>&quot;</span><span style="color:#a3be8c;">{
+</span><span style="color:#a3be8c;">  </span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">model</span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">: </span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">llama3</span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">,
+</span><span style="color:#a3be8c;">  </span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">prompt</span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">: </span><span style="color:#96b5b4;">\&quot;</span><span>$</span><span style="color:#bf616a;">prompt</span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">,
+</span><span style="color:#a3be8c;">  </span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">stream</span><span style="color:#96b5b4;">\&quot;</span><span style="color:#a3be8c;">: false
+</span><span style="color:#a3be8c;">}</span><span>&quot;</span><span style="color:#a3be8c;">)
+</span><span>
+</span><span style="color:#96b5b4;">echo </span><span>&quot;$</span><span style="color:#bf616a;">response</span><span>&quot; | </span><span style="color:#bf616a;">jq </span><span>&#39;</span><span style="color:#a3be8c;">.response</span><span>&#39;
+</span></code></pre>
+
+    </div>
+
+    
+        <footer>
+            <hr>
+            <p>
+                
+                    Published by Samy
+                
+                
+                    
+                    in <a href="https://samyhaff.github.io/categories/nlp/">NLP</a>
+                
+                
+            </p>
+            
+            
+        </footer>
+    
+</article>
+
+
+    </body>
+
+</html>
