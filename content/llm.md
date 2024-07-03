@@ -1,6 +1,6 @@
 +++
 title = "Learning about LLMs"
-date = 2024-06-29
+date = 2024-07-01
 
 [taxonomies]
 categories = ["NLP", "programming"]
@@ -69,4 +69,41 @@ response=$(curl -s http://localhost:11434/api/generate -d "{
 }")
 
 echo "$response" | jq '.response'
+```
+
+### Example project
+
+Let's use `ollama` to generate git messages.
+
+We can use the following `Modelfile` to create a `llama3` model with a system prompt specifying the goal of the model:
+
+```
+FROM llama3
+
+SYSTEM """
+Your only goal is to output git commit messages. You will be given git diff outputs and should exclusively return a git commit message which can be piped directly into the git commit command.
+Never include notes or remarks on the commit message you generated.
+""""
+```
+
+The model is then created using `ollama create git -f Modelfile`.
+
+Now we can use the following script to generate git commit messages from staged changes:
+
+```bash
+#!/bin/bash
+
+diff_output=$(git diff --cached)
+
+prompt="Write a git commit message given this git diff.\n\nGit Diff:\n${diff_output}"
+escaped_prompt=$(echo "$prompt" | jq -Rs .)
+
+response=$(curl -s http://localhost:11434/api/generate -d "{
+  \"model\": \"git\",
+  \"prompt\": $escaped_prompt,
+  \"stream\": false
+}")
+
+commit_message=$(echo "$response" | jq -r '.response')
+echo "$commit_message" | tee >(pbcopy)
 ```
