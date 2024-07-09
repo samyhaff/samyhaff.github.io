@@ -107,3 +107,23 @@ response=$(curl -s http://localhost:11434/api/generate -d "{
 commit_message=$(echo "$response" | jq -r '.response')
 echo "$commit_message" | tee >(pbcopy)
 ```
+
+## Theory behind LLMs
+
+### Attention mechanism for RNNs
+
+* [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473)
+
+### Transformer architecture
+
+* [An Introduction to Transformers](https://arxiv.org/abs/2304.10557)
+* [Stanford NLP Notes on Self Attention and Transformers](https://web.stanford.edu/class/cs224n/readings/cs224n-self-attention-transformers-2023_draft.pdf)
+* [Attention is All You Need](https://arxiv.org/abs/1706.03762)
+* [The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
+
+### Models
+
+* [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (Encoder-only transformer)
+* [Generating Wikipedia by Summarizing Long Sequences](https://arxiv.org/abs/1801.10198) (Decoder-only transformer)
+* [Improving Language Understanding by Generative Pretraining](https://gwern.net/doc/www/s3-us-west-2.amazonaws.com/d73fdc5ffa8627bce44dcda2fc012da638ffb158.pdf) (GPT, Decoder-only transformer)
+* [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461) (Encoder-decoder transformer)
