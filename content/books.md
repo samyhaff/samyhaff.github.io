@@ -18,6 +18,7 @@ Here is a list of books I have read and can recommend, I will update it regularl
 * **The stranger**, Albert Camus
 * **The Count of Monte Cristo**, Alexandre Dumas
 * **Crime and Punishment**, Fyodor Dostoevsky
+* **Notes from the underground**, Fyodor Dostoevsky
 * **The Phantom Tollbooth**, Norton Juster
 * **All Quiet on the Western Front**, Erich Maria Remarque
 * **Fahrenheit 451**, Ray Bradury
@@ -39,3 +40,4 @@ Here is a list of books I have read and can recommend, I will update it regularl
 * **The C Programming Language**, Brian W. Kernighan, Dennis M. Ritchie
 * **Logicomix**, Apóstolos K. Doxiádis
 * **Why we sleep**, Matthew Walker
+* **Sapiens: A Brief History of Humankind**, Harari, Yuval Noah
