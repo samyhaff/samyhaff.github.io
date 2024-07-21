@@ -22,20 +22,23 @@ This is why I decided to switch to [Obsidian](https://obsidian.md), as it stood 
 * It has a large community and many plugins available
 * It has available on all major platforms
 * It is highly configurable and can be customized to fit my needs
+* It has a powerful search and linking system that allows for the creation of a personal knowledge base
 
 So far, my only complaint is that the apps are not open source, but I am satisfied with the fact that my notes are fully under my control.
 
 ## My Gym Log setup
 
 This particular project is the reason I wanted to move away from Apple Notes. I am used to writing down the weights I lift for each exercise in order to track my progress and
-select the right weights. I wanted to make to be able to quickly log my weights during my workout and have them automatically update a note to keep track of my progress
+select the right weights. I wanted to be able to quickly log my weights during my workout and have them automatically update a note to keep track of my progress
 and workout schedule.
 
-The [dataview](https://blacksmithgu.github.io/obsidian-dataview/) plugin allows for a live indexing and querying of notes, and the core unique note creator plugin,
-alongside the core template plugin, allow for the quick creation of notes from templates.
+This setup relies on two community plugins:
 
-So, I created a `Upper body` and a `Lower body` templates, which I use to create a new unique note for each workout, with the title being the date of the workout.
-For example, this is what the `Upper body` template looks like:
+* The [dataview](https://blacksmithgu.github.io/obsidian-dataview/) plugin allows for a live indexing and querying of notes
+* The [QuickAdd](https://github.com/chhoumann/quickadd) which allows for the quick creation of notes from templates.
+
+So, I created a `Upper body` and a `Lower body` templates, along with the two corresponding QuickAdd options, which I use to create a new unique note for each workout, with the title being
+the date of the workout. For example, this is what the `Upper body` template looks like:
 
 ```markdown
 #upper
