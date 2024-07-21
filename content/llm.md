@@ -110,6 +110,8 @@ echo "$commit_message" | tee >(pbcopy)
 
 ## Theory behind LLMs
 
+* [Stanford CS224N](https://web.stanford.edu/class/cs224n/)
+
 ### Attention mechanism for RNNs
 
 * [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473)
