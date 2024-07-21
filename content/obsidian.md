@@ -28,13 +28,13 @@ So far, my only complaint is that the apps are not open source, but I am satisfi
 ## My Gym Log setup
 
 This particular project is the reason I wanted to move away from Apple Notes. I am used to writing down the weights I lift for each exercise in order to track my progress and
-select the right weights. I wanted to make to be able to quickly log my weights during my workout and have them automatically updated a note to keep track of my progress
+select the right weights. I wanted to make to be able to quickly log my weights during my workout and have them automatically update a note to keep track of my progress
 and workout schedule.
 
 The [dataview](https://blacksmithgu.github.io/obsidian-dataview/) plugin allows for a live indexing and querying of notes, and the core unique note creator plugin,
 alongside the core template plugin, allow for the quick creation of notes from templates.
 
-So, I created a `Upper body` and a `Lower body` templates, which I use to create a new note for each workout, with the title being the date of the workout.
+So, I created a `Upper body` and a `Lower body` templates, which I use to create a new unique note for each workout, with the title being the date of the workout.
 For example, this is what the `Upper body` template looks like:
 
 ```markdown
@@ -49,7 +49,7 @@ row::
 hammer-curl::
 ```
 
-I also have a `gym` note where I keep track of the weights I lift for each exercise. I use the following query to display the last four upper body workout weights:
+I also have a `gym` note where I keep track of the weights I lift for each exercise. I use the following query to display the last four upper body workout weights in a table:
 
 ```sql
 TABLE
