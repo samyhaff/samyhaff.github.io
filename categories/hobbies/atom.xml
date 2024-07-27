@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Samy Haffoudhi - Hobbies</title>
+    <subtitle>My personal site</subtitle>
+    <link href="https://samyhaff.github.io/categories/hobbies/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://samyhaff.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-06-30T00:00:00+00:00</updated>
+    <id>https://samyhaff.github.io/categories/hobbies/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Piano</title>
+        <published>2024-06-30T00:00:00+00:00</published>
+        <updated>2024-06-30T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://samyhaff.github.io/piano/" type="text/html"/>
+        <id>https://samyhaff.github.io/piano/</id>
+        
+        <summary type="html">&lt;p&gt;I mostly play classical and soundtrack pieces from anime and video games. Here are the pieces I worked on. I will update this list regularly.
+I am also currently working on my improvisation skills.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Book collection</title>
+        <published>2024-06-29T00:00:00+00:00</published>
+        <updated>2024-06-29T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://samyhaff.github.io/books/" type="text/html"/>
+        <id>https://samyhaff.github.io/books/</id>
+        
+        <summary type="html">&lt;p&gt;Here is a list of books I have read and can recommend, I will update it regularly.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>

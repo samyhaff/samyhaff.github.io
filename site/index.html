@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <link rel="icon" type="image/png" href="/favicon.png">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      
+      <meta name="description" content="My personal site" />
+      
+    
+
+      <title>Samy Haffoudhi</title>
+
+      
+
+      
+          <link rel="stylesheet" href="https://samyhaff.github.io/site.css">
+      
+
+      
+      
+    </head>
+
+    <body class="hack dark main container">
+        
+    
+        
+                
+                    <header>
+                        <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io">
+                                <span itemprop="name">Home</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io/about">
+                                <span itemprop="name">About</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io/categories">
+                                <span itemprop="name">Categories</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://github.com/samyhaff">
+                                <span itemprop="name">Github</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="mailto:haffoudhisamy@gmail.com">
+                                <span itemprop="name">Contact</span></a>
+                        
+                        </nav>
+                    </header>
+                
+            
+    
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h1 itemprop="headline">About this site</h1>
+        <span class="muted">
+    <svg class="icon i-clock" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <circle cx="16" cy="16" r="14"/>
+        <path d="M16 8 L16 16 20 20"/>
+    </svg>
+    <span>2 minute read</span>
+    <svg class="icon i-edit" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
+    </svg>
+
+    Published: 2024-06-30
+</span>
+    </header>
+    <div itemprop="articleBody">
+      <p>This page descrbibes how this site is built. It is a static site generated with <a href="https://www.getzola.org/">Zola</a>. The source code is available on
+<a href="https://github.com/samyhaff/samyhaff.github.io/tree/master">GitHub</a>.</p>
+<span id="continue-reading"></span><h2 id="zola">Zola</h2>
+<p>Zola is a static site generator written in Rust. It is fast and consists in a single binary. I chose it because of its simplicity, as I was looking for a minimalistic solution to build my site.
+It uses the <a href="https://keats.github.io/tera/">Tera</a> templating engine and the <a href="https://sass-lang.com/">Sass</a> CSS preprocessor.
+Content is written in Markdown and can be organized in sections and categories.</p>
+<h2 id="theme">Theme</h2>
+<p>The theme for this site is based on the <a href="https://github.com/getzola/after-dark">after-dark</a> theme. I made some modifications to the colors and allowed for some additional text to the index page in
+my <a href="https://github.com/samyhaff/after-dark">fork</a>. Themes are simply added as git submodules in the <code>themes</code> directory.</p>
+<h2 id="deployment">Deployment</h2>
+<p>The site is deployed on <a href="https://pages.github.com/">GitHub Pages</a>. The <code>gh-pages</code> branch of the repo is used to host the built site. The <code>master</code> branch contains the source code.
+The site is built and deployed using the <a href="https://github.com/shalzz/zola-deploy-action">zola-deploy-action</a> GitHub action.</p>
+<h2 id="workflow">Workflow</h2>
+<p>New content is created by adding a new Markdown file in the <code>content</code> directory. The file contains a front matter with the title and date of the post, as well as any taxonomies.
+Changes can be previewed locally by running <code>zola serve</code> which starts a local server and listens for any changes in the source file, before pushing the changes to the <code>master</code> branch
+and having the GitHub action build and deploy the site.</p>
+<h2 id="inspirations">Inspirations</h2>
+<p>I want sites to be simple, fast to load and free from unnecessary javascript and tracking. I was inspired by various personal and academic sites, as well as:</p>
+<ul>
+<li><a href="https://adventofcode.com/">Advent of Code</a></li>
+<li><a href="https://news.ycombinator.com/">Hackernews</a></li>
+<li><a href="https://lukesmith.xyz/">Luke Smith's site</a></li>
+<li><a href="https://castel.dev">Gilles Castel's site</a></li>
+<li><a href="https://lilianweng.github.io">Lil'log</a></li>
+</ul>
+<h2 id="future-work">Future work</h2>
+<p>I plan to look into support for LaTeX equations.</p>
+
+    </div>
+
+    
+        <footer>
+            <hr>
+            <p>
+                
+                    Published by Samy
+                
+                
+                    
+                    in <a href="https://samyhaff.github.io/categories/programming/">programming</a>
+                
+                
+            </p>
+            
+            
+        </footer>
+    
+</article>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <link rel="icon" type="image/png" href="/favicon.png">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      
+      <meta name="description" content="My personal site" />
+      
+    
+
+      <title>Samy Haffoudhi</title>
+
+      
+
+      
+          <link rel="stylesheet" href="https://samyhaff.github.io/site.css">
+      
+
+      
+      
+    </head>
+
+    <body class="hack dark main container">
+        
+    
+        
+                
+                    <header>
+                        <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io">
+                                <span itemprop="name">Home</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io/about">
+                                <span itemprop="name">About</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://samyhaff.github.io/categories">
+                                <span itemprop="name">Categories</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://github.com/samyhaff">
+                                <span itemprop="name">Github</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="mailto:haffoudhisamy@gmail.com">
+                                <span itemprop="name">Contact</span></a>
+                        
+                        </nav>
+                    </header>
+                
+            
+    
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h1 itemprop="headline">Obsidian: a private and flexible note-taking tool</h1>
+        <span class="muted">
+    <svg class="icon i-clock" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <circle cx="16" cy="16" r="14"/>
+        <path d="M16 8 L16 16 20 20"/>
+    </svg>
+    <span>4 minute read</span>
+    <svg class="icon i-edit" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
+    </svg>
+
+    Published: 2024-07-21
+</span>
+    </header>
+    <div itemprop="articleBody">
+      <p>Here I will write about my journey using Obsidian to organize my thoughts and notes.</p>
+<span id="continue-reading"></span><h2 id="why-obsidian">Why Obsidian?</h2>
+<p>I used to write my notes using Apple Notes, which allowed to sync them across my devices and was easy to use, with the features I needed.
+However, I wanted to have more control over my notes, to be able to load them in any editor and automate some tasks.
+This is why I decided to switch to <a href="https://obsidian.md">Obsidian</a>, as it stood out to me as the best tool choice for my needs, for the following reasons:</p>
+<ul>
+<li>Notes are nothing more than markdown files</li>
+<li>The notes are stored locally and can be synced with a cloud service of choice</li>
+<li>It is free</li>
+<li>It has a large community and many plugins available</li>
+<li>It has available on all major platforms</li>
+<li>It is highly configurable and can be customized to fit my needs</li>
+<li>It has a powerful search and linking system that allows for the creation of a personal knowledge base</li>
+</ul>
+<p>So far, my only complaint is that the apps are not open source, but I am satisfied with the fact that my notes are fully under my control.</p>
+<h2 id="my-gym-log-setup">My Gym Log setup</h2>
+<p>This particular project is the reason I wanted to move away from Apple Notes. I am used to writing down the weights I lift for each exercise in order to track my progress and
+select the right weights. I wanted to be able to quickly log my weights during my workout and have them automatically update a note to keep track of my progress
+and workout schedule.</p>
+<p>This setup relies on two community plugins:</p>
+<ul>
+<li>The <a href="https://blacksmithgu.github.io/obsidian-dataview/">dataview</a> plugin allows for a live indexing and querying of notes</li>
+<li>The <a href="https://github.com/chhoumann/quickadd">QuickAdd</a> which allows for the quick creation of notes from templates.</li>
+</ul>
+<p>So, I created a <code>Upper body</code> and a <code>Lower body</code> templates, along with the two corresponding QuickAdd options, which I use to create a new unique note for each workout, with the title being
+the date of the workout. For example, this is what the <code>Upper body</code> template looks like:</p>
+<pre data-lang="markdown" style="background-color:#2b303b;color:#c0c5ce;" class="language-markdown "><code class="language-markdown" data-lang="markdown"><span style="color:#8fa1b3;">#upper
+</span><span>dumbbells-bench::
+</span><span>lat-pulldown::
+</span><span>shoulder-raises::
+</span><span>lat-raises::
+</span><span>biceps-curl::
+</span><span>triceps-pushdown::
+</span><span>row::
+</span><span>hammer-curl::
+</span></code></pre>
+<p>I also have a <code>gym</code> note where I keep track of the weights I lift for each exercise. I use the following query to display the last four upper body workout weights in a table:</p>
+<pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span>TABLE
+</span><span>dumbbells-bench AS Bench, lat-pulldown AS &quot;</span><span style="color:#a3be8c;">Lat pulldown</span><span>&quot;, shoulder-raises as &quot;</span><span style="color:#a3be8c;">Shoulder raises</span><span>&quot;, lat-raises AS &quot;</span><span style="color:#a3be8c;">Lat raises</span><span>&quot;, biceps-curl AS &quot;</span><span style="color:#a3be8c;">Biceps curl</span><span>&quot;, hammer-curl AS &quot;</span><span style="color:#a3be8c;">Hammer curl</span><span>&quot;, triceps-pushdown AS &quot;</span><span style="color:#a3be8c;">Triceps pushdown</span><span>&quot;, row as &quot;</span><span style="color:#a3be8c;">Row</span><span>&quot;
+</span><span style="color:#b48ead;">FROM </span><span style="color:#65737e;">#upper and &quot;gym&quot;
+</span><span style="color:#b48ead;">LIMIT </span><span style="color:#d08770;">4
+</span></code></pre>
+<p>And this one to display a calendar:</p>
+<pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span>CALENDAR </span><span style="color:#d08770;">file</span><span>.</span><span style="color:#d08770;">ctime
+</span><span style="color:#b48ead;">FROM </span><span style="color:#65737e;">#upper AND &quot;gym&quot;
+</span></code></pre>
+<p>I plan on extending this to include a graph of my progress, by either finding a plugin that can do this or writing my own script to generate the graph from the markdown files.</p>
+<h2 id="my-piano-practice-setup">My piano practice setup</h2>
+<p>I am also using Obsidian to keep track of my piano practice and repertoire. I have a <code>Piano pieces</code> note where I write down the pieces I learned and the ones i want to learn,
+as tasks. Using the <a href="https://publish.obsidian.md/tasks/Introduction">Tasks</a> plugin I can assign completion dates to each piece, corresponding to the last time I played them.
+Then, using the dataview plugin, I can display the pieces ordered by the last time I played them, which allows me to quickly see which ones I should play again to refresh my memory.</p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=DbsAQSIKQXk">Hack your brain with Obsidian.md</a></li>
+<li><a href="https://blacksmithgu.github.io/obsidian-dataview/">dataview documentation</a></li>
+</ul>
+
+    </div>
+
+    
+        <footer>
+            <hr>
+            <p>
+                
+                    Published by Samy
+                
+                
+                    
+                    in <a href="https://samyhaff.github.io/categories/programming/">programming</a>
+                
+                
+            </p>
+            
+            
+        </footer>
+    
+</article>
+
+
+    </body>
+
+</html>
