@@ -70,6 +70,12 @@ FROM #upper AND "gym"
 
 I plan on extending this to include a graph of my progress, by either finding a plugin that can do this or writing my own script to generate the graph from the markdown files.
 
+## My piano practice setup
+
+I am also using Obsidian to keep track of my piano practice and repertoire. I have a `Piano pieces` note where I write down the pieces I learned and the ones i want to learn,
+as tasks. Using the [Tasks](https://publish.obsidian.md/tasks/Introduction) plugin I can assign completion dates to each piece, corresponding to the last time I played them.
+Then, using the dataview plugin, I can display the pieces ordered by the last time I played them, which allows me to quickly see which ones I should play again to refresh my memory.
+
 ## Resources
 
 - [Hack your brain with Obsidian.md](https://www.youtube.com/watch?v=DbsAQSIKQXk)
