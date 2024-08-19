@@ -25,10 +25,10 @@ Here is a list of books I have read and can recommend, I will update it regularl
 
 ## Science fiction / Fantasy
 
-* **The Lord of the Rings**, J.R.R. Tolkien
+* **The Lord of the Rings**, J.R.R. Tolkien (trilogy)
 * **The Hobbit**, J.R.R. Tolkien
-* **Harry Potter**, J.K. Rowling
-* **Dune**, Frank Herbert
+* **Harry Potter**, J.K. Rowling (series)
+* **Dune**, Frank Herbert (series, 1-6)
 * **Ubik**, Philip K Dick
 * **Do Androids Dream of Electric Sheeps?**, Philip K Dick
 
