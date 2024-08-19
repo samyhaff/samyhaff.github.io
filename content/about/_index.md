@@ -1,15 +1,19 @@
 +++
 title = "About me"
-date = 2024-06-29
+description = "A about page of ..."
+template = "prose.html"
+insert_anchor_links = "none"
 
-[taxonomies]
-categories = ["About me"]
+[extra]
+lang = 'en'
+math = false
+mermaid = false
+copy = false
+comment = false
 +++
 
-Hi, I am a computer science student from France. I'm passionate about programming and AI, and I love learning new things.
+Hi, my name is Samy, I am a computer science student from France. I'm passionate about programming and AI, and I love learning new things.
 I created this site because I wanted to share my thoughts, projects and anything else I find interesting with the world. I hope you enjoy your visit!
-
-<!-- more -->
 
 ## Interests
 
@@ -34,8 +38,8 @@ I created this site because I wanted to share my thoughts, projects and anything
 
 ## Hobbies
 
-* [Piano](/piano)
-* [Reading](/books)
+* [Piano](/blog/piano)
+* [Reading](/blog/books)
 * [Long distance running](https://www.strava.com/athletes/126848062)
 * Weightlifting
 * Manga/Anime

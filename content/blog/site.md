@@ -4,6 +4,9 @@ date = 2024-06-30
 
 [taxonomies]
 categories = ["programming", "tools"]
+
+[extra]
+math = true
 +++
 
 This page descrbibes how this site is built. It is a static site generated with [Zola](https://www.getzola.org/). The source code is available on
@@ -19,8 +22,10 @@ Content is written in Markdown and can be organized in sections and categories.
 
 ## Theme
 
-The theme for this site is based on the [after-dark](https://github.com/getzola/after-dark) theme. I made some modifications to the colors and allowed for some additional text to the index page in
-my [fork](https://github.com/samyhaff/after-dark). Themes are simply added as git submodules in the `themes` directory.
+At first, the theme for this site was based on the [after-dark](https://github.com/getzola/after-dark) theme. I made some modifications to the colors and allowed for some additional text to the
+index page in my [fork](https://github.com/samyhaff/after-dark). Themes are simply added as git submodules in the `themes` directory.
+However, I ended up switching to the [serene](https://github.com/isunjn/serene/blob/latest/USAGE.md) theme which I found to be more aligned with my vision for the site.
+It supports dark mode, templates allowing for both a blog and a project page, and $\LaTeX$ rendering using [KaTeX](https://katex.org/).
 
 ## Deployment
 
@@ -42,7 +47,3 @@ I want sites to be simple, fast to load and free from unnecessary javascript and
 * [Luke Smith's site](https://lukesmith.xyz/)
 * [Gilles Castel's site](https://castel.dev)
 * [Lil'log](https://lilianweng.github.io)
-
-## Future work
-
-I plan to look into support for LaTeX equations.

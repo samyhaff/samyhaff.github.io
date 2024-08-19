@@ -40,6 +40,7 @@ I am also currently working on my improvisation skills.
 * Koji Kondo **Great Fairy Fountain** from The Legend of Zelda: Ocarina of Time
 * Koji Kondo **Great Fairy Fountain** from The Legend of Zelda: Breath of the Wild
 * Toby Fox **Fallen Down** from Undertale
+* Christopher Larkin **Dirtmouth** from Hollow Knight
 
 ## Chord progressions
 
