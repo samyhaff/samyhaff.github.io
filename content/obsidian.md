@@ -56,9 +56,10 @@ I also have a `gym` note where I keep track of the weights I lift for each exerc
 
 ```sql
 TABLE
-dumbbells-bench AS Bench, lat-pulldown AS "Lat pulldown", shoulder-raises as "Shoulder raises", lat-raises AS "Lat raises", biceps-curl AS "Biceps curl", hammer-curl AS "Hammer curl", triceps-pushdown AS "Triceps pushdown", row as "Row"
+dumbbells-bench AS Bench, lat-pulldown AS "Lat pulldown", shoulder-raises AS "Shoulder raises", lat-raises AS "Lat raises", biceps-curl AS "Biceps curl", hammer-curl AS "Hammer curl", triceps-pushdown AS "Triceps pushdown", row as "Row", pec-fly as "Pec Fly"
 FROM #upper and "gym"
-LIMIT 4
+SORT file.ctime DESC
+LIMIT 5
 ```
 
 And this one to display a calendar:
