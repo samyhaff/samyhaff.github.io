@@ -1,0 +1,9 @@
+[[project]]
+name = "Implementation and Evaluation of Recent Neuroevolution Algorithms"
+desc = "Master's thesis, supervised by Carsten Witt, at the Technical University of Denmark."
+tags = ["Neuroevolution", "EA", "ES", "Rust"]
+img = "img/thesis.png"
+links = [
+  { name = "thesis", url = "https://findit.dtu.dk/en/catalog/669468d28159b1e8f381b189" },
+  { name = "code", url = "https://github.com/MSc-Thesis-Samy/neuroevolution-framework" },
+]

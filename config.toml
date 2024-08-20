@@ -52,7 +52,7 @@ id = "samyhaff"                           # Your id / username / handle
 bio = "Welcome to my personal site :)"                          # Your bio
 avatar = "img/avatar.jpeg"            # Your avatar
 links = [                             # Your links
-    { name = "GitHub", icon = "github", url = "https://github.com/<your-username>" },
+    { name = "GitHub", icon = "github", url = "https://github.com/samyhaff" },
     # { name = "Twitter", icon = "twitter", url = "https://twitter.com/<your-username>" },
     { name = "Email", icon = "email", url = "mailto:haffoudhisamy@gmail.com" },
 ]
@@ -65,7 +65,7 @@ recent_more_text = "more »"
 
 sections = [
     { name = "blog", path = "/blog", is_external = false },
-    # { name = "projects", path = "/projects", is_external = false },
+    { name = "projects", path = "/projects", is_external = false },
     { name = "about", path = "/about", is_external = false },
     { name = "github", path = "https://github.com/samyhaff", is_external = true },
 ]

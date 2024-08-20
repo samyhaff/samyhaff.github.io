@@ -13,7 +13,7 @@ comment = false
 +++
 
 Hi, my name is Samy, I am a computer science student from France. I'm passionate about programming and AI, and I love learning new things.
-I created this site because I wanted to share my thoughts, projects and anything else I find interesting with the world. I hope you enjoy your visit!
+I created this site because I wanted to share my work, thoughts, projects and anything else I find interesting with the world. I hope you enjoy your visit!
 
 ## Interests
 
