@@ -3,7 +3,7 @@ title = "About this site"
 date = 2024-06-30
 
 [taxonomies]
-categories = ["programming", "tools"]
+categories = ["tools"]
 
 [extra]
 math = true

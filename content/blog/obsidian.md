@@ -3,7 +3,7 @@ title = "Obsidian: a private and flexible note-taking tool"
 date = 2024-07-21
 
 [taxonomies]
-categories = ["programming", "tools"]
+categories = ["tools"]
 +++
 
 Here I will write about my journey using Obsidian to organize my thoughts and notes.
