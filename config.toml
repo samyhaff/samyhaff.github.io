@@ -54,7 +54,7 @@ avatar = "img/avatar.jpeg"            # Your avatar
 links = [                             # Your links
     { name = "GitHub", icon = "github", url = "https://github.com/<your-username>" },
     # { name = "Twitter", icon = "twitter", url = "https://twitter.com/<your-username>" },
-    { name = "Email", icon = "email", url = "mailto:<your-email-address>" },
+    { name = "Email", icon = "email", url = "mailto:haffoudhisamy@gmail.com" },
 ]
 
 homepage_layout = "about"             # "about" | "list" | "recent"
