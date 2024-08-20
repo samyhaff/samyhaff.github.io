@@ -32,19 +32,6 @@ paths = "on"
 taxonomies = "on"
 anchors = "on"
 
-# [extra]
-# after_dark_menu = [
-#     {url = "$BASE_URL", name = "Home"},
-#     {url = "$BASE_URL/about", name = "About"},
-#     {url = "$BASE_URL/categories", name = "Categories"},
-#     # {url = "$BASE_URL/tags", name = "Tags"},
-#     {url = "https://github.com/samyhaff", name = "Github"},
-#     # {url = "https://www.linkedin.com/in/samy-haffoudhi-112b8b164/", name = "LinkedIn"},
-#     {url = "mailto:haffoudhisamy@gmail.com", name = "Contact"},
-# ]
-# author = "Samy"
-# after_dark_title = "Samy Haffoudhi"
-
 [extra]
 
 name = "Samy"                         # Your name

@@ -1,6 +1,6 @@
 [[project]]
 name = "Implementation and Evaluation of Recent Neuroevolution Algorithms"
-desc = "Master's thesis, supervised by Carsten Witt, at the Technical University of Denmark."
+desc = "Master's thesis, supervised by Prof. Carsten Witt, at the Technical University of Denmark."
 tags = ["Neuroevolution", "EA", "ES", "Rust"]
 img = "img/thesis.png"
 links = [
