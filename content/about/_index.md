@@ -20,9 +20,9 @@ I created this site because I wanted to share my work, projects and anything els
 ## Interests
 
 * Natural Language Processing
+* Machine learning
 * Logic
-* Programming languages
-* Theoretical computer science
+* Knowledge representation
 * Free and open-source software
 
 ## Education
