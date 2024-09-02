@@ -12,7 +12,7 @@ copy = false
 comment = false
 +++
 
-Hi, my name is Samy, I am a computer science student from France. I'm passionate about programming and AI, and I love learning new things.
+Hi, my name is Samy, I am a PhD student from France. I'm passionate about programming and AI, and I love learning new things.
 I created this site because I wanted to share my work, thoughts, projects and anything else I find interesting with the world. I hope you enjoy your visit!
 
 ## Interests
@@ -25,6 +25,9 @@ I created this site because I wanted to share my work, thoughts, projects and an
 
 ## Education
 
+* **PhD Student** Télécom Paris, Saclay, France, 2024-2027 (expected)
+    * Project: [Knowledge-based language models](https://suchanek.name/work/research/kb-lm/index.html)
+    * Supervisors: [Fabian M. Suchanek](https://suchanek.name/) and [Nils Holzenberger](https://perso.telecom-paristech.fr/holzenberger)
 * **MSc in Computer Science**, Technical University of Denmark, Lyngby, Denmark, 2022-2024
     * Master Thesis: "Implementation and Evaluation of Recent Neuroevolution Algorithms", supervised by Prof. [Carsten Witt](https://www.imm.dtu.dk/~cawi/)
 * **MEng** with a specialization in data and signal processing, Centrale Nantes, Nantes, France, 2020-2024
