@@ -22,7 +22,7 @@ I created this site because I wanted to share my work, projects and anything els
 * Natural Language Processing
 * Machine learning
 * Logic
-* Knowledge representation
+* Knowledge graphs
 * Free and open-source software
 
 ## Education
