@@ -41,9 +41,4 @@ I am also currently working on my improvisation skills.
 * Koji Kondo **Great Fairy Fountain** from The Legend of Zelda: Breath of the Wild
 * Toby Fox **Fallen Down** from Undertale
 * Christopher Larkin **Dirtmouth** from Hollow Knight
-
-## Chord progressions
-
-* iim7 - V7 - Imaj7 - VI7 in C Major
-* I - iim7 - I - IV in Eb Major
-* i - III - v - VII in E Minor (Comptine d'un autre été chord progression)
+* Evan Call **The ultimate price** from Violet Evergarden
