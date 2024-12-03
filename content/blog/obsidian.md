@@ -1,5 +1,5 @@
 +++
-title = "Obsidian: a private and flexible note-taking tool"
+title = "Obsidian: a flexible note-taking tool"
 date = 2024-07-21
 
 [taxonomies]

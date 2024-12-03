@@ -12,17 +12,18 @@ copy = false
 comment = false
 +++
 
-Hi, my name is Samy, I am a PhD student at Télécom Paris working under the supervision of Prof. Fabian M. Suchanek and Prof. Nils Holzenberger.
-My research interests lie in the intersection of structured data and language models.
-Prior to that, I obtained a MSc in Computer Science from the Technical University of Denmark and a MEng from Centrale Nantes in France.
-I created this site because I wanted to share my work, projects and anything else I find interesting with the world.
+Hi, my name is Samy, I am a PhD student at Télécom Paris working under the supervision of Prof. Fabian M. Suchanek and Associate Prof.
+Nils Holzenberger. My research interests lie in the intersection of structured data and language models.
+Prior to that, I obtained a MSc in Computer Science from the Technical University of Denmark and a MEng from Centrale Nantes in
+France. I created this site because I wanted to share my work, projects and anything else I find interesting with the world.
 
 ## Interests
 
 * Natural Language Processing
 * Machine learning
-* Logic
 * Knowledge graphs
+* Code generation
+* Logic
 * Free and open-source software
 
 ## Education
@@ -44,7 +45,8 @@ I created this site because I wanted to share my work, projects and anything els
 ## Hobbies
 
 * [Piano](/blog/piano)
-* [Reading](/blog/books)
 * [Long distance running](https://www.strava.com/athletes/126848062)
 * Weightlifting
+* [Reading](/blog/books)
 * Manga/Anime
+* Video games

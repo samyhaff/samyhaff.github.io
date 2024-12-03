@@ -6,7 +6,7 @@ date = 2024-06-29
 categories = ["Hobbies"]
 +++
 
-Here is a list of books I have read and can recommend, I will update it regularly.
+Here is a list of books I have read and can recommend.
 
 <!-- more -->
 
@@ -22,6 +22,7 @@ Here is a list of books I have read and can recommend, I will update it regularl
 * **The Phantom Tollbooth**, Norton Juster
 * **All Quiet on the Western Front**, Erich Maria Remarque
 * **Fahrenheit 451**, Ray Bradury
+* **Frankenstein**, Mary Shelley
 
 ## Science fiction / Fantasy
 

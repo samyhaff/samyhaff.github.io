@@ -6,8 +6,8 @@ date = 2024-06-30
 categories = ["Hobbies"]
 +++
 
-I mostly play classical and soundtrack pieces from anime and video games. Here are the pieces I worked on. I will update this list regularly.
-I am also currently working on my improvisation skills.
+I used to mostly play classical and soundtrack pieces from anime and video games. Now I ao learning jazz.
+Here are the pieces and standards I worked on, as well as some great resources and tools.
 
 <!-- more -->
 
@@ -42,3 +42,17 @@ I am also currently working on my improvisation skills.
 * Toby Fox **Fallen Down** from Undertale
 * Christopher Larkin **Dirtmouth** from Hollow Knight
 * Evan Call **The ultimate price** from Violet Evergarden
+
+## Jazz
+
+* Joseph Kosma **Autumn Leaves**
+* Frank Sinatra **Fly Me to the Moon**
+* Erroll Garner **Misty**
+* Kenny Dorham **Blue Bossa**
+
+## Resources
+
+* [The Jazz Piano Site](https://www.thejazzpianosite.com)
+* [musictheory.net](https://www.musictheory.net)
+* [iReal Pro](https://irealpro.com)
+* [Reverse Chord Finder](https://www.scales-chords.com/chordid.php)
