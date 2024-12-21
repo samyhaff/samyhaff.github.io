@@ -6,7 +6,7 @@ date = 2024-06-30
 categories = ["Hobbies"]
 +++
 
-I used to mostly play classical and soundtrack pieces from anime and video games. Now I ao learning jazz.
+I used to mostly play classical and soundtrack pieces from anime and video games. Now I am learning jazz.
 Here are the pieces and standards I worked on, as well as some great resources and tools.
 
 <!-- more -->

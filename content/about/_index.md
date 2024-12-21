@@ -12,10 +12,10 @@ copy = false
 comment = false
 +++
 
-Hi, my name is Samy, I am a PhD student at Télécom Paris working under the supervision of Prof. Fabian M. Suchanek and Associate Prof.
-Nils Holzenberger. My research interests lie in the intersection of structured data and language models.
+Hi, my name is Samy, I am a PhD student at Télécom Paris working under the supervision of Prof. [Fabian M. Suchanek](https://suchanek.name/) and Associate Prof.
+[Nils Holzenberger](https://perso.telecom-paristech.fr/holzenberger). My research interests lie in the intersection of structured data and language models.
 Prior to that, I obtained a MSc in Computer Science from the Technical University of Denmark and a MEng from Centrale Nantes in
-France. I created this site because I wanted to share my work, projects and anything else I find interesting with the world.
+France. I created this site because I wanted to share my academic work, personal projects and anything else I find interesting with the world.
 
 ## Interests
 

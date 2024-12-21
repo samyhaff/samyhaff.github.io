@@ -23,6 +23,7 @@ Here is a list of books I have read and can recommend.
 * **All Quiet on the Western Front**, Erich Maria Remarque
 * **Fahrenheit 451**, Ray Bradury
 * **Frankenstein**, Mary Shelley
+* **The Fall**, Albert Camus
 
 ## Science fiction / Fantasy
 
