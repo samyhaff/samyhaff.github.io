@@ -24,6 +24,7 @@ Here is a list of books I have read and can recommend.
 * **Fahrenheit 451**, Ray Bradury
 * **Frankenstein**, Mary Shelley
 * **The Fall**, Albert Camus
+* **Nausea**, Jean-Paul Sartre
 
 ## Science fiction / Fantasy
 
