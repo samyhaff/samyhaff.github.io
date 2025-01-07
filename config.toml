@@ -36,7 +36,7 @@ anchors = "on"
 
 name = "Samy"                         # Your name
 id = "samyhaff"                           # Your id / username / handle
-bio = "Welcome to my personal site :)"                          # Your bio
+bio = "PhD student in NLP at Télécom Paris"                          # Your bio
 avatar = "img/avatar.jpeg"            # Your avatar
 links = [                             # Your links
     { name = "GitHub", icon = "github", url = "https://github.com/samyhaff" },
