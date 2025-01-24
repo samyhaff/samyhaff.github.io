@@ -43,12 +43,12 @@ Here are the pieces and standards I worked on, as well as some great resources a
 * Christopher Larkin **Dirtmouth** from Hollow Knight
 * Evan Call **The ultimate price** from Violet Evergarden
 
-## Jazz
+## Jazz standards
 
-* Joseph Kosma **Autumn Leaves**
-* Frank Sinatra **Fly Me to the Moon**
-* Erroll Garner **Misty**
-* Kenny Dorham **Blue Bossa**
+* **Autumn Leaves**
+* **Fly Me to the Moon**
+* **Misty**
+* **Blue Bossa**
 
 ## Resources
 
@@ -56,3 +56,4 @@ Here are the pieces and standards I worked on, as well as some great resources a
 * [musictheory.net](https://www.musictheory.net)
 * [iReal Pro](https://irealpro.com)
 * [Reverse Chord Finder](https://www.scales-chords.com/chordid.php)
+* [dl-librescore](https://github.com/LibreScore/dl-librescore)

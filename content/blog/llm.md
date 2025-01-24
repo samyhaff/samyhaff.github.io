@@ -135,3 +135,5 @@ echo "$commit_message" | tee >(pbcopy)
 
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 * [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691)
+* [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
+* [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
