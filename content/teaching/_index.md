@@ -14,5 +14,5 @@ comment = false
 
 # TA Experience
 
-* **Language Models and Structured Data**, Télécom Paris, Spring 2024
-* **AI Ethics**, Télécom Paris, Spring 2024
+* **Language Models and Structured Data**, Télécom Paris, Spring 2024, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=158852)
+* **AI Ethics**, Télécom Paris, Spring 2024, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=31528)
