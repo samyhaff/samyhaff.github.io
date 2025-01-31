@@ -45,3 +45,4 @@ Here is a list of books I have read and can recommend.
 * **Why we sleep**, Matthew Walker
 * **Sapiens: A Brief History of Humankind**, Harari, Yuval Noah
 * **The Myth of Sisyphys**, Albert Camus
+* **Nichomachean Ethics**, Aristote
