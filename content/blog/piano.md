@@ -49,6 +49,7 @@ Here are the pieces and standards I worked on, as well as some great resources a
 * **Fly Me to the Moon**
 * **Misty**
 * **Blue Bossa**
+* **So What**
 
 ## Resources
 
