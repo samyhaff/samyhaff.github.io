@@ -28,9 +28,9 @@ France. I created this site because I wanted to share my academic work, personal
 
 ## Education
 
-* **PhD Student** Télécom Paris, Saclay, France, 2024-2027 (expected)
+* **PhD Student** Télécom Paris, Saclay, France, 2025-2028 (expected)
     * Project: [Knowledge-based language models](https://suchanek.name/work/research/kb-lm/index.html)
-    * Supervisors: Prof. [Fabian M. Suchanek](https://suchanek.name/) and Prof. [Nils Holzenberger](https://perso.telecom-paristech.fr/holzenberger)
+    * Supervisors: Prof. [Fabian M. Suchanek](https://suchanek.name/) and Associate Prof. [Nils Holzenberger](https://perso.telecom-paristech.fr/holzenberger)
 * **MSc in Computer Science**, Technical University of Denmark, Lyngby, Denmark, 2022-2024
     * Master Thesis: "Implementation and Evaluation of Recent Neuroevolution Algorithms", supervised by Prof. [Carsten Witt](https://www.imm.dtu.dk/~cawi/)
 * **MEng** with a specialization in data and signal processing, Centrale Nantes, Nantes, France, 2020-2024
@@ -38,6 +38,7 @@ France. I created this site because I wanted to share my academic work, personal
 
 ## Work experience
 
+* **Doctoral Researcher**, Télécom Paris, Saclay, France, 2025-2028 (expected)
 * **Student Software Engineer** (part time), Microsoft, Lygnby, Denmark, 2023-2024 (1.5 years)
 * **Reseach internship in deep learning for audio processing**, Thales R&T, Saclay, France, 2022 (5 months)
 * **SOC Intern**, Atos, Bezons, France, 2021 (1 months)
@@ -48,5 +49,5 @@ France. I created this site because I wanted to share my academic work, personal
 * [Long distance running](https://www.strava.com/athletes/126848062)
 * Weightlifting
 * [Reading](/blog/books)
+* Chess
 * Manga/Anime
-* Video games
