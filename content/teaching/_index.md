@@ -14,6 +14,7 @@ comment = false
 
 # TA Experience
 
+* **Données du Web**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/course/view.php?id=21529)
 * **Introduction au machine learning et BigData**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=41462)
 * **Large-scale Generative Models for NLP and Speech Processing**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=118929)
 * **Language Models and Structured Data**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=158852)
