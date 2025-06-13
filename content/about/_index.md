@@ -46,7 +46,7 @@ France. I created this site because I wanted to share my academic work, personal
 ## Hobbies
 
 * [Piano](/blog/piano)
-* [Long distance running](https://www.strava.com/athletes/126848062)
+* Long distance running
 * Weightlifting
 * [Reading](/blog/books)
 * Chess

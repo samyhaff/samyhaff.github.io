@@ -7,3 +7,9 @@ links = [
   { name = "thesis", url = "https://findit.dtu.dk/en/catalog/669468d28159b1e8f381b189" },
   { name = "code", url = "https://github.com/MSc-Thesis-Samy/neuroevolution-framework" },
 ]
+
+[[project]]
+name = "LELA 🌙: LLM-based Entity-Linking Approach"
+desc = "Work-in-progress - An approach for entity linking with large language models, which adapts to any domain and knowledge base, without any fine-tuning."
+tags = ["llm", "entity-linking", "entity_disambiguation", "python", "nlp"]
+links = []
