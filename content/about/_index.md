@@ -28,7 +28,7 @@ France. I created this site because I wanted to share my academic work, personal
 
 ## Education
 
-* **PhD Student** Télécom Paris, Saclay, France, 2025-2028 (expected)
+* **PhD Student** Télécom Paris, Institut Polytechnique de Paris, Plateau de Saclay, France, 2025-2028 (expected)
     * Project: [Knowledge-based language models](https://suchanek.name/work/research/kb-lm/index.html)
     * Supervisors: Prof. [Fabian M. Suchanek](https://suchanek.name/) and Associate Prof. [Nils Holzenberger](https://perso.telecom-paristech.fr/holzenberger)
 * **MSc in Computer Science**, Technical University of Denmark, Lyngby, Denmark, 2022-2024
@@ -38,16 +38,16 @@ France. I created this site because I wanted to share my academic work, personal
 
 ## Work experience
 
-* **Doctoral Researcher**, Télécom Paris, Saclay, France, 2025-2028 (expected)
+* **Doctoral Researcher**, Télécom Paris, Plateau de Saclay, France, 2025-2028 (expected)
 * **Student Software Engineer** (part time), Microsoft, Lygnby, Denmark, 2023-2024 (1.5 years)
-* **Reseach internship in deep learning for audio processing**, Thales R&T, Saclay, France, 2022 (5 months)
+* **Reseach internship in deep learning for audio processing**, Thales R&T, Pleateau de Saclay, France, 2022 (5 months)
 * **SOC Intern**, Atos, Bezons, France, 2021 (1 months)
 
 ## Hobbies
 
-* [Piano](/blog/piano)
 * Long distance running
 * Weightlifting
 * [Reading](/blog/books)
 * Chess
 * Manga/Anime
+<!-- * [Piano](/blog/piano) -->
