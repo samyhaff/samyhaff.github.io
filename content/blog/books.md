@@ -6,7 +6,7 @@ date = 2024-06-29
 categories = ["Hobbies"]
 +++
 
-Here is a list of books I have read and can recommend.
+Here is a list of books I have read.
 
 <!-- more -->
 
@@ -34,6 +34,7 @@ Here is a list of books I have read and can recommend.
 * **Dune**, Frank Herbert (series, 1-6)
 * **Ubik**, Philip K Dick
 * **Do Androids Dream of Electric Sheeps?**, Philip K Dick
+* **Snow Crash**, Neal Stephenson
 
 ## Non fiction
 
