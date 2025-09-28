@@ -35,6 +35,7 @@ Here is a list of books I have read.
 * **Ubik**, Philip K Dick
 * **Do Androids Dream of Electric Sheeps?**, Philip K Dick
 * **Snow Crash**, Neal Stephenson
+* **The Hitchhiker's Guide to the Galaxy**, Douglas Adams (series)
 
 ## Non fiction
 
