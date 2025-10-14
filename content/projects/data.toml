@@ -2,6 +2,7 @@
 name = "LELA 🌙: LLM-based Entity-Linking Approach"
 desc = "Work-in-progress - An approach for entity linking with large language models, which adapts to any domain and knowledge base, without any fine-tuning."
 tags = ["llm", "entity-linking", "entity-disambiguation", "nlp"]
+img = "/img/lela.png"
 links = []
 
 [[project]]
