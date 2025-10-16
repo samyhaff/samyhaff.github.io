@@ -25,3 +25,6 @@ I am following several people on [X (Twitter)](https://x.com/samyhaff/following)
 ## Courses
 
 * [CS294/194-196 Large Language Model Agents](https://rdi.berkeley.edu/llm-agents/f24)
+* [CMU Advanced NLP Fall 2025](https://www.youtube.com/playlist?list=PLqC25OT8ZpD2-RuhyacIsODl5iJVgMjI3)
+* [Large Language Model Systems - CMU 11868, Spring 2025](https://llmsystem.github.io/llmsystem2025spring/)
+* [Caltech EE/CS 148: Large Language Models and Vision Models](https://georgiagkioxari.com/teaching/cs148/)
