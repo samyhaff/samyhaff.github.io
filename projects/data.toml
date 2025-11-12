@@ -1,0 +1,25 @@
+[[project]]
+name = "LELA 🌙: LLM-based Entity-Linking Approach"
+desc = "Work-in-progress - An approach for entity linking with large language models, which adapts to any domain and knowledge base, without any fine-tuning."
+tags = ["llm", "entity-linking", "entity-disambiguation", "nlp"]
+img = "/img/lela.png"
+links = []
+
+[[project]]
+name = "Retrieval-Constrained Decoding Reveals Underestimated Parametric Knowledge in Language Models"
+desc = "Language models (LMs) encode substantial factual knowledge, but often produce answers judged as incorrect. We hypothesize that many of these answers are actually correct, but are expressed in alternative surface forms that are dismissed due to an overly strict evaluation, leading to an underestimation of models' parametric knowledge. We propose Retrieval-Constrained Decoding (RCD), a decoding strategy that restricts model outputs to unique surface forms. We introduce YAGO-QA, a dataset of 19,137 general knowledge questions. Evaluating open-source LMs from 135M to 70B parameters, we show that standard decoding undervalues their knowledge."
+tags = ["llm", "constrained-decoding", "nlp", "konwledge-graphs"]
+links = [
+  { name = "preprint", url = "https://www.arxiv.org/abs/2509.23417" },
+  { name = "code", url = "https://github.com/Rajjaa/disambiguated-LLM" },
+]
+
+[[project]]
+name = "Implementation and Evaluation of Recent Neuroevolution Algorithms"
+desc = "Master's thesis, supervised by Prof. Carsten Witt, at the Technical University of Denmark."
+tags = ["Neuroevolution", "EA", "ES", "Rust"]
+img = "/img/thesis.png"
+links = [
+  { name = "thesis", url = "https://findit.dtu.dk/en/catalog/669468d28159b1e8f381b189" },
+  { name = "code", url = "https://github.com/MSc-Thesis-Samy/neuroevolution-framework" },
+]

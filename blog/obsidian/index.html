@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  
+  
+    
+  
+  
+  <meta name="description" content="&lt;p&gt;Here I will write about my journey using Obsidian to organize my thoughts and notes.&lt;&#x2F;p&gt;
+">
+  
+
+  <title>Obsidian: a flexible note-taking tool</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  
+  <style>
+
+  /* light mode colors */
+  body {
+    --primary-color: #5871a2;
+    --primary-pale-color: #5871a210;
+    --text-color: #3C4043;
+    --text-pale-color: #94969f;
+    --bg-color: #ffffff; 
+    --highlight-mark-color: #5f75b035;
+  
+    --callout-note-color: #5871a2;
+    --callout-important-color: #8062b0;
+    --callout-warning-color: #936e51;
+    --callout-alert-color: #bc5252;
+    --callout-question-color: #477389;
+    --callout-tip-color: #3c8460;
+  }
+
+  /* dark mode colors */
+  body.dark {
+    --primary-color: #5d77ac;
+    --primary-pale-color: #5d77ac20;
+    --text-color: #9197a5;
+    --text-pale-color: #747983;
+    --bg-color: #202124;
+    --highlight-mark-color: #5f75b035;
+
+    --callout-note-color: #5d77ac;
+    --callout-important-color: #8062b0;
+    --callout-warning-color: #936e51;
+    --callout-alert-color: #bc5252;
+    --callout-question-color: #477389;
+    --callout-tip-color: #3c8460;
+  }
+
+  /* typography */
+  body {
+    --main-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --code-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --homepage-max-width: 768px;
+    --main-max-width: 768px;
+    --avatar-size: 60px;
+    --icon-size: 20px;
+    --homepage-font-size: 16px;
+    --homepage-line-height: 1.75;
+    --paragraph-font-size: 16px;
+    --paragraph-line-height: 1.75;
+    --aside-font-size: 15px;
+    --img-border-radius: 0px;
+    --callout-border-radius: 0px;
+    --detail-border-radius: 0px;
+    --dark-mode-img-brightness: 0.75;
+    --dark-mode-chart-brightness: 0.75;
+    --inline-code-border-radius: 2px;
+    --inline-code-bg-color: var(--primary-pale-color);
+    --block-code-border-radius: 0px;
+    --block-code-border-color: var(--primary-color);
+    --detail-border-color: var(--primary-color);
+  }
+
+</style>
+
+  <link rel="stylesheet" href="/main.css">
+  
+
+<link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
+
+
+
+  
+</head>
+
+<body class="post">
+  <script>
+    const theme = sessionStorage.getItem('theme');
+    const match = window.matchMedia("(prefers-color-scheme: dark)").matches
+    if ((theme && theme == 'dark') || (!theme && match)) {
+      document.body.classList.add('dark');
+      const hl = document.querySelector('link#hl');
+      if (hl) hl.href = '/hl-dark.css';
+    }
+  </script>
+  
+<header  class="blur" >
+  <div id="header-wrapper">
+    <nav>
+      <a class="instant" href="/">samyhaff</a>
+      
+        <button id="toggler" class="separator" aria-label="toggle expand">::</button>
+      
+      
+        <span class="wrap left fold">{</span>
+        
+        
+          
+        
+          
+        
+        
+        
+          
+          
+            
+          
+          <a class="instant fold" href="&#x2F;projects">projects</a>
+          <span class="wrap-separator fold">,</span>
+        
+          
+          
+            
+          
+          <a class="instant fold" href="&#x2F;teaching">teaching</a>
+          <span class="wrap-separator fold">,</span>
+        
+          
+          
+          <a class="instant " href="&#x2F;blog">blog</a>
+          <span class="wrap-separator fold">,</span>
+        
+          
+          
+            
+          
+          <a class="instant fold" href="&#x2F;about">about</a>
+          
+        
+        <span class="wrap right fold">} ;</span>
+      
+    </nav>
+    <div id="btns">
+      
+      
+      
+
+      
+      
+      
+        
+      
+      
+      <a id="rss-btn" href="&#x2F;blog&#x2F;atom.xml" aria-label="rss feed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M3 17C5.20914 17 7 18.7909 7 21H3V17ZM3 10C9.07513 10 14 14.9249 14 21H12C12 16.0294 7.97056 12 3 12V10ZM3 3C12.9411 3 21 11.0589 21 21H19C19 12.1634 11.8366 5 3 5V3Z" fill="currentColor"></path></svg></a>
+      
+      
+
+      
+      
+      <button id="theme-toggle" aria-label="theme switch" data-moon-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;" data-sun-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z" fill="currentColor"></path></svg>
+      </button>
+
+      
+      
+      
+      
+      <button id="toc-toggle" aria-label="table of content">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M3 4H21V6H3V4ZM3 11H15V13H3V11ZM3 18H21V20H3V18Z" fill="currentColor"></path></svg>
+      </button>
+      
+      
+    </div>
+  </div>
+</header>
+
+
+
+
+<dialog id="rss-mask">
+  <div>
+    <a href="https:&#x2F;&#x2F;samyhaff.github.io&#x2F;blog&#x2F;atom.xml">https:&#x2F;&#x2F;samyhaff.github.io&#x2F;blog&#x2F;atom.xml</a>
+    
+    
+    <button autofocus aria-label="copy" data-link="https:&#x2F;&#x2F;samyhaff.github.io&#x2F;blog&#x2F;atom.xml" data-copy-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;" data-check-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;" >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z" fill="currentColor"></path></svg>
+    </button>
+  </div>
+</dialog>
+
+
+
+<div id="wrapper">
+  <div id="blank"></div>
+  <aside>
+    
+    
+    <nav>
+      <ul>
+        
+        <li>
+          <a class="h2" href="#why-obsidian">Why Obsidian?</a>
+          
+        </li>
+        
+        <li>
+          <a class="h2" href="#my-gym-log-setup">My Gym Log setup</a>
+          
+        </li>
+        
+        <li>
+          <a class="h2" href="#my-piano-practice-setup">My piano practice setup</a>
+          
+        </li>
+        
+        <li>
+          <a class="h2" href="#resources">Resources</a>
+          
+        </li>
+        
+      </ul>
+    </nav>
+    
+    
+    <button id="back-to-top" aria-label="back to top">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M11.9997 10.8284L7.04996 15.7782L5.63574 14.364L11.9997 8L18.3637 14.364L16.9495 15.7782L11.9997 10.8284Z" fill="currentColor"></path></svg>
+    </button>
+    
+  </aside>
+  <main>
+    <div>
+      
+      
+      
+      
+      <div id="copy-cfg" style="display: none;" data-copy-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;" data-check-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;"></div>
+      
+      
+      <article class="prose" data-backlink-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M9.41421 8L18.0208 16.6066L16.6066 18.0208L8 9.41421V17H6V6H17V8H9.41421Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;">
+        <h1>Obsidian: a flexible note-taking tool</h1>
+        <div id="post-info">
+          <div id="date">
+            <span id="publish">2024-07-21</span>
+            </div>
+
+          
+
+          
+        </div>
+
+        
+        
+
+        
+
+        
+
+        
+          <p>Here I will write about my journey using Obsidian to organize my thoughts and notes.</p>
+<span id="continue-reading"></span><h2 id="why-obsidian">Why Obsidian?<a class="zola-anchor" href="#why-obsidian" aria-label="Anchor link for: why-obsidian" style="visibility: hidden;">#</a></h2>
+<p>I used to write my notes using Apple Notes, which allowed to sync them across my devices and was easy to use, with the features I needed.
+However, I wanted to have more control over my notes, to be able to load them in any editor and automate some tasks.
+This is why I decided to switch to <a rel="nofollow noreferrer" href="https://obsidian.md">Obsidian</a>, as it stood out to me as the best tool choice for my needs, for the following reasons:</p>
+<ul>
+<li>Notes are nothing more than markdown files</li>
+<li>The notes are stored locally and can be synced with a cloud service of choice</li>
+<li>It is free</li>
+<li>It has a large community and many plugins available</li>
+<li>It has available on all major platforms</li>
+<li>It is highly configurable and can be customized to fit my needs</li>
+<li>It has a powerful search and linking system that allows for the creation of a personal knowledge base</li>
+</ul>
+<p>So far, my only complaint is that the apps are not open source, but I am satisfied with the fact that my notes are fully under my control.</p>
+<h2 id="my-gym-log-setup">My Gym Log setup<a class="zola-anchor" href="#my-gym-log-setup" aria-label="Anchor link for: my-gym-log-setup" style="visibility: hidden;">#</a></h2>
+<p>This particular project is the reason I wanted to move away from Apple Notes. I am used to writing down the weights I lift for each exercise in order to track my progress and
+select the right weights. I wanted to be able to quickly log my weights during my workout and have them automatically update a note to keep track of my progress
+and workout schedule.</p>
+<p>This setup relies on two community plugins:</p>
+<ul>
+<li>The <a rel="nofollow noreferrer" href="https://blacksmithgu.github.io/obsidian-dataview/">dataview</a> plugin allows for a live indexing and querying of notes</li>
+<li>The <a rel="nofollow noreferrer" href="https://github.com/chhoumann/quickadd">QuickAdd</a> which allows for the quick creation of notes from templates.</li>
+</ul>
+<p>So, I created a <code>Upper body</code> and a <code>Lower body</code> templates, along with the two corresponding QuickAdd options, which I use to create a new unique note for each workout, with the title being
+the date of the workout. For example, this is what the <code>Upper body</code> template looks like:</p>
+<pre data-lang="markdown" class="language-markdown z-code"><code class="language-markdown" data-lang="markdown"><span class="z-text z-html z-markdown"><span class="z-meta z-block-level z-markdown"><span class="z-markup z-heading z-1 z-markdown"><span class="z-punctuation z-definition z-heading z-begin z-markdown">#</span></span><span class="z-markup z-heading z-1 z-markdown"><span class="z-entity z-name z-section z-markdown">upper</span><span class="z-meta z-whitespace z-newline z-markdown">
+</span></span></span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">dumbbells-bench::
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">lat-pulldown::
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">shoulder-raises::
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">lat-raises::
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">biceps-curl::
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">triceps-pushdown::
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">row::
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">hammer-curl::
+</span></span></code></pre>
+<p>I also have a <code>gym</code> note where I keep track of the weights I lift for each exercise. I use the following query to display the last four upper body workout weights in a table:</p>
+<pre data-lang="sql" class="language-sql z-code"><code class="language-sql" data-lang="sql"><span class="z-source z-sql">TABLE
+</span><span class="z-source z-sql">dumbbells<span class="z-keyword z-operator z-math z-sql">-</span>bench <span class="z-keyword z-operator z-assignment z-alias z-sql">AS</span> Bench, lat<span class="z-keyword z-operator z-math z-sql">-</span>pulldown <span class="z-keyword z-operator z-assignment z-alias z-sql">AS</span> <span class="z-string z-quoted z-double z-sql"><span class="z-punctuation z-definition z-string z-begin z-sql">&quot;</span>Lat pulldown<span class="z-punctuation z-definition z-string z-end z-sql">&quot;</span></span>, shoulder<span class="z-keyword z-operator z-math z-sql">-</span>raises <span class="z-keyword z-operator z-assignment z-alias z-sql">AS</span> <span class="z-string z-quoted z-double z-sql"><span class="z-punctuation z-definition z-string z-begin z-sql">&quot;</span>Shoulder raises<span class="z-punctuation z-definition z-string z-end z-sql">&quot;</span></span>, lat<span class="z-keyword z-operator z-math z-sql">-</span>raises <span class="z-keyword z-operator z-assignment z-alias z-sql">AS</span> <span class="z-string z-quoted z-double z-sql"><span class="z-punctuation z-definition z-string z-begin z-sql">&quot;</span>Lat raises<span class="z-punctuation z-definition z-string z-end z-sql">&quot;</span></span>, biceps<span class="z-keyword z-operator z-math z-sql">-</span>curl <span class="z-keyword z-operator z-assignment z-alias z-sql">AS</span> <span class="z-string z-quoted z-double z-sql"><span class="z-punctuation z-definition z-string z-begin z-sql">&quot;</span>Biceps curl<span class="z-punctuation z-definition z-string z-end z-sql">&quot;</span></span>, hammer<span class="z-keyword z-operator z-math z-sql">-</span>curl <span class="z-keyword z-operator z-assignment z-alias z-sql">AS</span> <span class="z-string z-quoted z-double z-sql"><span class="z-punctuation z-definition z-string z-begin z-sql">&quot;</span>Hammer curl<span class="z-punctuation z-definition z-string z-end z-sql">&quot;</span></span>, triceps<span class="z-keyword z-operator z-math z-sql">-</span>pushdown <span class="z-keyword z-operator z-assignment z-alias z-sql">AS</span> <span class="z-string z-quoted z-double z-sql"><span class="z-punctuation z-definition z-string z-begin z-sql">&quot;</span>Triceps pushdown<span class="z-punctuation z-definition z-string z-end z-sql">&quot;</span></span>, row <span class="z-keyword z-operator z-assignment z-alias z-sql">as</span> <span class="z-string z-quoted z-double z-sql"><span class="z-punctuation z-definition z-string z-begin z-sql">&quot;</span>Row<span class="z-punctuation z-definition z-string z-end z-sql">&quot;</span></span>, pec<span class="z-keyword z-operator z-math z-sql">-</span>fly <span class="z-keyword z-operator z-assignment z-alias z-sql">as</span> <span class="z-string z-quoted z-double z-sql"><span class="z-punctuation z-definition z-string z-begin z-sql">&quot;</span>Pec Fly<span class="z-punctuation z-definition z-string z-end z-sql">&quot;</span></span>
+</span><span class="z-source z-sql"><span class="z-keyword z-other z-DML z-sql">FROM</span> <span class="z-comment z-line z-number-sign z-sql"><span class="z-punctuation z-definition z-comment z-sql">#</span>upper and &quot;gym&quot;
+</span></span><span class="z-source z-sql">SORT <span class="z-constant z-other z-database-name z-sql">file</span>.<span class="z-constant z-other z-table-name z-sql">ctime</span> <span class="z-keyword z-other z-order z-sql">DESC</span>
+</span><span class="z-source z-sql"><span class="z-keyword z-other z-DML z-sql">LIMIT</span> <span class="z-constant z-numeric z-sql">5</span>
+</span></code></pre>
+<p>And this one to display a calendar:</p>
+<pre data-lang="sql" class="language-sql z-code"><code class="language-sql" data-lang="sql"><span class="z-source z-sql">CALENDAR <span class="z-constant z-other z-database-name z-sql">file</span>.<span class="z-constant z-other z-table-name z-sql">ctime</span>
+</span><span class="z-source z-sql"><span class="z-keyword z-other z-DML z-sql">FROM</span> <span class="z-comment z-line z-number-sign z-sql"><span class="z-punctuation z-definition z-comment z-sql">#</span>upper AND &quot;gym&quot;
+</span></span></code></pre>
+<p>I plan on extending this to include a graph of my progress, by either finding a plugin that can do this or writing my own script to generate the graph from the markdown files.</p>
+<h2 id="my-piano-practice-setup">My piano practice setup<a class="zola-anchor" href="#my-piano-practice-setup" aria-label="Anchor link for: my-piano-practice-setup" style="visibility: hidden;">#</a></h2>
+<p>I am also using Obsidian to keep track of my piano practice and repertoire. I have a <code>Piano pieces</code> note where I write down the pieces I learned and the ones i want to learn,
+as tasks. Using the <a rel="nofollow noreferrer" href="https://publish.obsidian.md/tasks/Introduction">Tasks</a> plugin I can assign completion dates to each piece, corresponding to the last time I played them.
+Then, using the dataview plugin, I can display the pieces ordered by the last time I played them, which allows me to quickly see which ones I should play again to refresh my memory.</p>
+<h2 id="resources">Resources<a class="zola-anchor" href="#resources" aria-label="Anchor link for: resources" style="visibility: hidden;">#</a></h2>
+<ul>
+<li><a rel="nofollow noreferrer" href="https://www.youtube.com/watch?v=DbsAQSIKQXk">Hack your brain with Obsidian.md</a></li>
+<li><a rel="nofollow noreferrer" href="https://blacksmithgu.github.io/obsidian-dataview/">dataview documentation</a></li>
+</ul>
+
+        
+      </article>
+
+      
+      
+    </div>
+
+    <footer>
+  <div class="copyright">
+    <p>© 2023 <your-name></p>
+
+  </div>
+  
+  <div class="credits">
+    powered by
+    <a href="https://www.getzola.org" target="_blank" rel='noreferrer noopener'>zola</a>
+    and
+    <a href="https://github.com/isunjn/serene" target="_blank" rel='noreferrer noopener'>serene</a>
+  </div>
+  
+</footer>
+  </main>
+</div>
+
+  
+<script src="/js/lightense.min.js"></script>
+
+
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
