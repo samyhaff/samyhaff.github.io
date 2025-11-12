@@ -48,3 +48,4 @@ Here is a list of books I have read.
 * **Sapiens: A Brief History of Humankind**, Harari, Yuval Noah
 * **The Myth of Sisyphys**, Albert Camus
 * **Nichomachean Ethics**, Aristote
+* **A t-on besoin d'un chef?**, Mehdi Moussaïd
