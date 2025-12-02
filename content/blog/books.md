@@ -49,3 +49,4 @@ Here is a list of books I have read.
 * **The Myth of Sisyphys**, Albert Camus
 * **Nichomachean Ethics**, Aristote
 * **A t-on besoin d'un chef?**, Mehdi Moussaïd
+* **The Selfish Gene**, Richard Dawkins
