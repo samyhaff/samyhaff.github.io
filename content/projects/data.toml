@@ -1,9 +1,12 @@
 [[project]]
 name = "LELA 🌙: LLM-based Entity-Linking Approach"
-desc = "Work-in-progress - An approach for entity linking with large language models, which adapts to any domain and knowledge base, without any fine-tuning."
+desc = "Entity linking (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question-answering, and information extraction. Our method, LELA, is a modular coarse-to-fine approach that leverages the capabilities of large language models (LLMs), and works with different target domains, knowledge bases and LLMs, without any fine-tuning phase. Our experiments across various entity linking settings show that LELA is highly competitive with fine-tuned approaches, and substantially outperforms the non-fine-tuned ones. "
 tags = ["llm", "entity-linking", "entity-disambiguation", "nlp"]
 img = "/img/lela.png"
-links = []
+links = [
+  { name = "preprint", url = "https://arxiv.org/abs/2601.05192" },
+  { name = "code", url = "https://github.com/samyhaff/LELA" },
+]
 
 [[project]]
 name = "Retrieval-Constrained Decoding Reveals Underestimated Parametric Knowledge in Language Models"
