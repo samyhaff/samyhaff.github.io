@@ -49,4 +49,5 @@ France. I created this site because I wanted to share my academic work, personal
 * Weightlifting
 * [Reading](/blog/books)
 * Manga/Anime
+* Cinema
 <!-- * [Piano](/blog/piano) -->

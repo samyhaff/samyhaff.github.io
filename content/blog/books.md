@@ -25,6 +25,7 @@ Here is a list of books I have read.
 * **Frankenstein**, Mary Shelley
 * **The Fall**, Albert Camus
 * **Nausea**, Jean-Paul Sartre
+* **The Name of the Wind**, Patrick Rothfuss
 
 ## Science fiction / Fantasy
 
