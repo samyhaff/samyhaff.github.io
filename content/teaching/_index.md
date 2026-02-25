@@ -17,7 +17,7 @@ comment = false
 I supervised labs for the following courses:
 
 * **Large-scale Generative Models for NLP and Speech Processing**, Télécom Paris, 2026, [link](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22059/CSC-5AI27-TP-large-scale-generative-models-for-nlp-and-speech-processing?from=D1)
-* **Language Modeling**, Télécom Paris, 2023, [link](https://moodle.ip-paris.fr/course/view.php?id=15832)
+* **Language Modeling**, Télécom Paris, 2025, [link](https://moodle.ip-paris.fr/course/view.php?id=15832)
 * **Knowledge Base Construction**, Télécom Paris, 2025, [link](https://suchanek.name/work/teaching/kbc-2025/index.html)
 * **Données du Web**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/course/view.php?id=21529)
 * **Introduction au machine learning et BigData**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=41462)
