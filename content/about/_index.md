@@ -19,11 +19,10 @@ France. I created this site because I wanted to share my academic work, personal
 
 ## Interests
 
+* Information Extraction
+* Language models
 * Natural Language Processing
-* Machine learning
 * Knowledge graphs
-* Code generation
-* Logic
 * Free and open-source software
 
 ## Education
