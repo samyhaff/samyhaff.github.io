@@ -25,7 +25,6 @@ Here is a list of books I have read.
 * **Frankenstein**, Mary Shelley
 * **The Fall**, Albert Camus
 * **Nausea**, Jean-Paul Sartre
-* **The Name of the Wind**, Patrick Rothfuss
 
 ## Science fiction / Fantasy
 
@@ -37,6 +36,8 @@ Here is a list of books I have read.
 * **Do Androids Dream of Electric Sheeps?**, Philip K Dick
 * **Snow Crash**, Neal Stephenson
 * **The Hitchhiker's Guide to the Galaxy**, Douglas Adams (series)
+* **The Name of the Wind**, Patrick Rothfuss
+* **The Wise Man's Fear**, Patrick Rothfuss
 
 ## Non fiction
 
