@@ -16,6 +16,7 @@ comment = false
 
 I supervised labs for the following courses:
 
+* **Données et technologies du web**, Télécom Paris, 2026, [link](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22059/CSC-5AI27-TP-donnees-et-technologies-du-web?from=D1)
 * **Large-scale Generative Models for NLP and Speech Processing**, Télécom Paris, 2026, [link](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22059/CSC-5AI27-TP-large-scale-generative-models-for-nlp-and-speech-processing?from=D1)
 * **Language Modeling**, Télécom Paris, 2025, [link](https://moodle.ip-paris.fr/course/view.php?id=15832)
 * **Knowledge Base Construction**, Télécom Paris, 2025, [link](https://suchanek.name/work/teaching/kbc-2025/index.html)
