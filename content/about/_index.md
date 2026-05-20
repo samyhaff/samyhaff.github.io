@@ -28,6 +28,7 @@ France. I created this site because I wanted to share my academic work, personal
 ## Education
 
 * **PhD Student** Télécom Paris, Institut Polytechnique de Paris, Plateau de Saclay, France, 2025-2028 (expected)
+    * Team: [DIG](https://dig.telecom-paris.fr/)
     * Project: [Knowledge-based language models](https://suchanek.name/work/research/kb-lm/index.html)
     * Supervisors: Prof. [Fabian M. Suchanek](https://suchanek.name/) and Associate Prof. [Nils Holzenberger](https://perso.telecom-paristech.fr/holzenberger)
 * **MSc in Computer Science**, Technical University of Denmark, Lyngby, Denmark, 2022-2024
