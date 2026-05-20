@@ -2,10 +2,10 @@
 template = 'home.html'
 +++
 
- Hi, welcome to my personal site!
+Hi, welcome to my personal site! I'm a PhD student in NLP at Télécom Paris, working on language models and structured data.
 
-This is where I write about my work, projects, and other things that I find interesting.
+You can find more about me on the [about](/about) page, browse my [projects](/projects), or check out my [blog](/blog). Feel free to reach out if you have any questions about my work.
 
-You can find more about me in the [about](/about) page, navigate the site using the top menu to see my [projects](/projects), or check out my [blog](/blog) for my latest posts.
+## News
 
-Feel free to reach out to me if you have any questions regarding my work!
+* **May 2026** — [LELA](/projects) accepted as a demo paper at IJCAI 2026.

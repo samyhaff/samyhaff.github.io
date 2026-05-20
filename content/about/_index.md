@@ -17,10 +17,6 @@ Hi, my name is Samy, I am a PhD student at Télécom Paris working under the sup
 Prior to that, I obtained a MSc in Computer Science from the Technical University of Denmark and a MEng from Centrale Nantes in
 France. I created this site because I wanted to share my academic work, personal projects and anything else I find interesting with the world.
 
-## News
-
-* **May 2026** — [LELA](/projects) accepted as a demo paper at IJCAI 2026.
-
 ## Interests
 
 * Information Extraction
