@@ -5,6 +5,7 @@ tags = ["llm", "entity-linking", "entity-disambiguation", "nlp"]
 img = "/img/lela.png"
 links = [
   { name = "preprint", url = "https://arxiv.org/abs/2601.05192" },
+  { name = "IJCAI 2026 demo", url = "https://2026.ijcai.org/" },
   { name = "code", url = "https://github.com/NDobricic/LELA" },
 ]
 
