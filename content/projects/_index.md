@@ -1,6 +1,6 @@
 +++
 title = "My Projects"
-description = "My projects page."
+description = "Research projects and software by Samy Haffoudhi."
 template = "projects.html"
 
 [extra]

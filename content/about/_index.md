@@ -1,6 +1,6 @@
 +++
 title = "About me"
-description = "A about page of ..."
+description = "About Samy Haffoudhi, PhD student in NLP at Télécom Paris."
 template = "prose.html"
 insert_anchor_links = "none"
 

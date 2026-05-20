@@ -12,7 +12,7 @@ links = [
 [[project]]
 name = "Retrieval-Constrained Decoding Reveals Underestimated Parametric Knowledge in Language Models"
 desc = "Language models (LMs) encode substantial factual knowledge, but often produce answers judged as incorrect. We hypothesize that many of these answers are actually correct, but are expressed in alternative surface forms that are dismissed due to an overly strict evaluation, leading to an underestimation of models' parametric knowledge. We propose Retrieval-Constrained Decoding (RCD), a decoding strategy that restricts model outputs to unique surface forms. We introduce YAGO-QA, a dataset of 19,137 general knowledge questions. Evaluating open-source LMs from 135M to 70B parameters, we show that standard decoding undervalues their knowledge."
-tags = ["llm", "constrained-decoding", "nlp", "konwledge-graphs"]
+tags = ["llm", "constrained-decoding", "nlp", "knowledge-graphs"]
 links = [
   { name = "preprint", url = "https://www.arxiv.org/abs/2509.23417" },
   { name = "code", url = "https://github.com/Rajjaa/disambiguated-LLM" },
