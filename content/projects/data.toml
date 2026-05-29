@@ -6,7 +6,7 @@ img = "/img/lela.png"
 links = [
   { name = "preprint", url = "https://arxiv.org/abs/2601.05192" },
   { name = "IJCAI 2026 demo", url = "https://arxiv.org/abs/2605.26956" },
-  { name = "code", url = "https://github.com/NDobricic/LELA" },
+  { name = "code", url = "https://github.com/dig-team/LELA" },
 ]
 
 [[project]]
