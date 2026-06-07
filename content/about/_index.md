@@ -50,4 +50,5 @@ France. I created this site because I wanted to share my academic work, personal
 * [Reading](/blog/books)
 * Manga/Anime
 * Cinema
+* Photography
 <!-- * [Piano](/blog/piano) -->
