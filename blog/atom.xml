@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Samy Haffoudhi - My Blog</title>
+    <subtitle>My personal site</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://samyhaff.github.io/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://samyhaff.github.io/blog/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-10-02T00:00:00+00:00</updated>
+    <id>https://samyhaff.github.io/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>AI, NLP and LLM resources</title>
+        <published>2025-10-02T00:00:00+00:00</published>
+        <updated>2025-10-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://samyhaff.github.io/blog/ai-resources/"/>
+        <id>https://samyhaff.github.io/blog/ai-resources/</id>
+        
+        <summary type="html">&lt;p&gt;Here is a list of resources related to Artificial Intelligence (AI), Natural Language Processing (NLP), and Large Language Models (LLMs).&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Obsidian: a flexible note-taking tool</title>
+        <published>2024-07-21T00:00:00+00:00</published>
+        <updated>2024-07-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://samyhaff.github.io/blog/obsidian/"/>
+        <id>https://samyhaff.github.io/blog/obsidian/</id>
+        
+        <summary type="html">&lt;p&gt;Here I will write about my journey using Obsidian to organize my thoughts and notes.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Piano</title>
+        <published>2024-06-30T00:00:00+00:00</published>
+        <updated>2024-06-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://samyhaff.github.io/blog/piano/"/>
+        <id>https://samyhaff.github.io/blog/piano/</id>
+        
+        <summary type="html">&lt;p&gt;I used to mostly play classical and soundtrack pieces from anime and video games. Now I am learning jazz.
+Here are the pieces and standards I worked on, as well as some great resources and tools.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>About this site</title>
+        <published>2024-06-30T00:00:00+00:00</published>
+        <updated>2024-06-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://samyhaff.github.io/blog/site/"/>
+        <id>https://samyhaff.github.io/blog/site/</id>
+        
+        <summary type="html">&lt;p&gt;This page descrbibes how this site is built. It is a static site generated with &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;. The source code is available on
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;samyhaff&#x2F;samyhaff.github.io&#x2F;tree&#x2F;master&quot;&gt;GitHub&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Book collection</title>
+        <published>2024-06-29T00:00:00+00:00</published>
+        <updated>2024-06-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://samyhaff.github.io/blog/books/"/>
+        <id>https://samyhaff.github.io/blog/books/</id>
+        
+        <summary type="html">&lt;p&gt;Here is a list of books I have read.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
