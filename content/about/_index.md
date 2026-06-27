@@ -49,6 +49,6 @@ France. I created this site because I wanted to share my academic work, personal
 * Weightlifting
 * [Reading](/blog/books)
 * Manga/Anime
-* Cinema
+* [Cinema](https://boxd.it/lJwNz)
 * Photography
 <!-- * [Piano](/blog/piano) -->
