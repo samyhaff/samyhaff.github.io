@@ -29,4 +29,6 @@ I supervised labs for the following courses:
 
 # Project Supervision
 
+I supervised the following student projects:
+
 * **Projects in Data Science & AI 2026**, Télécom Paris, 2026, [link](https://dsai-tp.notion.site/)
