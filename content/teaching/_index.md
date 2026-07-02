@@ -16,6 +16,7 @@ comment = false
 
 I supervised labs for the following courses:
 
+* **Extraction d'information et traitement du langage naturel**, Télécom Paris, 2026, [link](https://synapses.telecom-paris.fr/catalogue/2026-2027/ue/27712/DATA709B-extraction-d-information-et-traitement-du-langage-naturel?from=P6022)
 * **Données et technologies du web**, Télécom Paris, 2026, [link](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22059/CSC-5AI27-TP-donnees-et-technologies-du-web?from=D1)
 * **Large-scale Generative Models for NLP and Speech Processing**, Télécom Paris, 2026, [link](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22059/CSC-5AI27-TP-large-scale-generative-models-for-nlp-and-speech-processing?from=D1)
 * **Language Modeling**, Télécom Paris, 2025, [link](https://moodle.ip-paris.fr/course/view.php?id=15832)
@@ -25,3 +26,7 @@ I supervised labs for the following courses:
 * **Large-scale Generative Models for NLP and Speech Processing**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=118929)
 * **Language Models and Structured Data**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=158852)
 * **AI Ethics**, Télécom Paris, 2025, [link](https://ecampus.paris-saclay.fr/enrol/index.php?id=31528)
+
+# Project Supervision
+
+* **Projects in Data Science & AI 2026**, Télécom Paris, 2026, [link](https://dsai-tp.notion.site/)
