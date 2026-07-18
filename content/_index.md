@@ -8,4 +8,5 @@ You can find more about me on the [about](/about) page, browse my [projects](/pr
 
 ## News
 
+* **July 2026** — [LELA](/projects) accepted as a full paper at ISWC 2026.
 * **May 2026** — [LELA](/projects) accepted as a demo paper at IJCAI 2026.
