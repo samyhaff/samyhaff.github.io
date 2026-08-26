@@ -1,16 +1,25 @@
 +++
-title = "Book collection"
-date = 2024-06-29
+title = "Reading"
+description = "Books I have read."
+template = "prose.html"
+insert_anchor_links = "none"
+aliases = ["/blog/books/"]
 
-[taxonomies]
-categories = ["Hobbies"]
+[extra]
+lang = 'en'
+math = false
+mermaid = false
+copy = false
+comment = false
 +++
 
-Here is a list of books I have read.
+## 📖 Currently reading
 
-<!-- more -->
+* **East of Eden**, John Steinbeck
 
-## Classics / Fiction
+## Read so far
+
+### Classics / Fiction
 
 * **1984**, George Orwell
 * **Animal Farm**, George Orwell
@@ -26,7 +35,7 @@ Here is a list of books I have read.
 * **The Fall**, Albert Camus
 * **Nausea**, Jean-Paul Sartre
 
-## Science fiction / Fantasy
+### Science fiction / Fantasy
 
 * **The Lord of the Rings**, J.R.R. Tolkien (trilogy)
 * **The Hobbit**, J.R.R. Tolkien
@@ -40,7 +49,7 @@ Here is a list of books I have read.
 * **The Wise Man's Fear**, Patrick Rothfuss
 * **The Dispossessed**, Ursula K. Le Guin
 
-## Non fiction
+### Non fiction
 
 * **Moonwalking with Einstein**, Joshua Foer
 * **Gödel, Escher, Bach: an Eternal Golden Braid**, Douglas Hofstadter

@@ -9,7 +9,7 @@ categories = ["Tools"]
 math = true
 +++
 
-This page descrbibes how this site is built. It is a static site generated with [Zola](https://www.getzola.org/). The source code is available on
+This page describes how this site is built. It is a static site generated with [Zola](https://www.getzola.org/). The source code is available on
 [GitHub](https://github.com/samyhaff/samyhaff.github.io/tree/master).
 
 <!-- more -->

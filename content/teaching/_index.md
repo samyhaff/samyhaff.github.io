@@ -1,6 +1,6 @@
 +++
-title = "Teaching"
-description = "Teaching experience page."
+title = "Teaching & Service"
+description = "Teaching experience and academic service of Samy Haffoudhi."
 template = "prose.html"
 insert_anchor_links = "none"
 
@@ -32,3 +32,8 @@ I supervised labs for the following courses:
 I supervised the following student projects:
 
 * **Projects in Data Science & AI 2026**, Télécom Paris, 2026, [link](https://dsai-tp.notion.site/)
+
+# Academic Service
+
+* **Program Committee member**, [AKBC 2026](https://www.akbc.ws/2026/) (Conference on Automated Knowledge Base Construction)
+* **Reviewer**, *Machine Learning* (Springer)

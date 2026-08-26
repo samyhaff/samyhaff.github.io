@@ -39,15 +39,19 @@ France. I created this site because I wanted to share my academic work, personal
 ## Work experience
 
 * **Doctoral Researcher**, Télécom Paris, Plateau de Saclay, France, 2025-2028 (expected)
-* **Student Software Engineer** (part time), Microsoft, Lygnby, Denmark, 2023-2024 (1.5 years)
-* **Reseach internship in deep learning for audio processing**, Thales R&T, Pleateau de Saclay, France, 2022 (5 months)
+* **Student Software Engineer** (part time), Microsoft, Lyngby, Denmark, 2023-2024 (1.5 years)
+* **Research internship in deep learning for audio processing**, Thales R&T, Plateau de Saclay, France, 2022 (5 months)
 * **SOC Intern**, Atos, Bezons, France, 2021 (1 months)
+
+## Writing
+
+I occasionally write [posts](/blog) about the tools I use and how this site is built.
 
 ## Hobbies
 
 * Long distance running
 * Weightlifting
-* [Reading](/blog/books)
+* [Reading](/reading)
 * Manga/Anime
 * [Cinema](https://boxd.it/lJwNz)
 * Photography
