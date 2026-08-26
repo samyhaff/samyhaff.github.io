@@ -19,10 +19,12 @@ France. I created this site because I wanted to share my academic work, personal
 
 ## Research Interests
 
-* Information extraction (in particular entity disambiguation/linking)
+* Information Extraction (in particular entity disambiguation/linking)
 * Reasoning and Generalization in LLMs
-* LLM post-training (RL, Distillation)
+* LLM Post-training (RL, Distillation)
 * Mechanistic Interpretability
+* Natural Language Processing (NLP)
+* Knowledge Graphs
 
 ## Education
 
