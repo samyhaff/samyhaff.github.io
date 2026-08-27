@@ -22,6 +22,7 @@ A curated list of resources related to Artificial Intelligence (AI), Natural Lan
 * [Thinking Machines](https://thinkingmachines.ai/blog/)
 * [Sebastian Rashka's blog](https://sebastianraschka.com/blog/index.html)
 * [Neel Nanda's blog](https://www.neelnanda.io/)
+* [AI by Hand](https://www.byhand.ai/)
 
 ## Social Media
 
