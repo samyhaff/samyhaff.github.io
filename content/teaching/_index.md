@@ -35,5 +35,5 @@ I supervised the following student projects:
 
 # Academic Service
 
-* **Program Committee member**, [AKBC 2026](https://www.akbc.ws/2026/) (Conference on Automated Knowledge Base Construction)
+* **Program Committee member**, [AKBC 2026](https://www.akbc.ws/2026/) (Workshop on Automated Knowledge Base Construction)
 * **Reviewer**, *Machine Learning* (Springer)
