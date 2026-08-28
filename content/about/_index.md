@@ -51,5 +51,5 @@ France. I created this site because I wanted to share my academic work, personal
 * [Reading](/reading)
 * Manga/Anime
 * [Cinema](https://boxd.it/lJwNz)
-* Photography
+* [Photography](/photos)
 <!-- * [Piano](/blog/piano) -->

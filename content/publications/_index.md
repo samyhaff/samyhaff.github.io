@@ -12,7 +12,7 @@ copy = true
 comment = false
 +++
 
-My publications, most recent first. See also my [Google Scholar profile](https://scholar.google.com/citations?user=YI7i_z8AAAAJ&hl=fr).
+My publications, most recent first. See also my [Google Scholar profile](https://scholar.google.com/citations?user=YI7i_z8AAAAJ&hl=fr) and my [projects](/projects).
 
 ## 2026
 

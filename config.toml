@@ -54,10 +54,10 @@ recent_more_text = "more »"
 
 sections = [
     { name = "publications", path = "/publications", is_external = false },
-    { name = "projects", path = "/projects", is_external = false },
     { name = "teaching", path = "/teaching", is_external = false },
     { name = "reading", path = "/reading", is_external = false },
     { name = "resources", path = "/resources", is_external = false },
+    { name = "photos", path = "/photos", is_external = false },
     { name = "about", path = "/about", is_external = false },
     { name = "cv", path = "/cv.pdf", is_external = true },
 ]
