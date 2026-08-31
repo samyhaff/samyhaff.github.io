@@ -12,6 +12,7 @@ Feel free to reach out for possible collaborations or questions regarding my res
 
 ## News
 
+* **September 2026** — ✈️ Starting a 3-month research visit at the [Sapienza NLP group](https://nlp.uniroma1.it/), Sapienza University of Rome (September–November).
 * **August 2026** — 🎤 Presented the [LELA demo](/publications) at IJCAI-ECAI 2026 in Bremen.
 * **July 2026** — 🎉 [LELA](/publications) accepted as a full paper at ISWC 2026.
 * **May 2026** — 🎉 [LELA](/publications) accepted as a demo paper at IJCAI 2026.
