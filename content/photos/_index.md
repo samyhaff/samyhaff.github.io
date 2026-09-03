@@ -51,4 +51,11 @@ I shoot with a Nikon D5000. A few frames I like — click any of them to enlarge
 <img src="/img/photos/dsc_0665.jpg" alt="Photograph" loading="lazy" width="1600">
 <img src="/img/photos/dsc_0672.jpg" alt="Photograph" loading="lazy" width="1600">
 <img src="/img/photos/dsc_0695.jpg" alt="Photograph" loading="lazy" width="1600">
+<img src="/img/photos/dsc_0723.jpg" alt="Photograph" loading="lazy" width="1600">
+<img src="/img/photos/dsc_0745.jpg" alt="Photograph" loading="lazy" width="1600">
+<img src="/img/photos/dsc_0774.jpg" alt="Photograph" loading="lazy" width="1600">
+<img src="/img/photos/dsc_0798.jpg" alt="Photograph" loading="lazy" width="1600">
+<img src="/img/photos/dsc_0800.jpg" alt="Photograph" loading="lazy" width="1600">
+<img src="/img/photos/dsc_0801.jpg" alt="Photograph" loading="lazy" width="1600">
+<img src="/img/photos/dsc_0814.jpg" alt="Photograph" loading="lazy" width="1600">
 </div>
