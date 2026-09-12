@@ -15,7 +15,7 @@ comment = false
 
 ## 📖 Currently reading
 
-* **East of Eden**, John Steinbeck
+* **The Picture of Dorian Gray**, Oscar Wilde
 
 ## Read so far
 
@@ -34,6 +34,7 @@ comment = false
 * **Frankenstein**, Mary Shelley
 * **The Fall**, Albert Camus
 * **Nausea**, Jean-Paul Sartre
+* **East of Eden**, John Steinbeck
 
 ### Science fiction / Fantasy
 
