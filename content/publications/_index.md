@@ -49,8 +49,8 @@ Entity linking (mapping ambiguous mentions in text to entities in a knowledge ba
 
 **LELA: An End-to-end LLM-based Entity Linking Framework with Zero-shot Domain Adaptation** \
 **Samy Haffoudhi**, Nikola Dobričić, Fabian M. Suchanek, Nils Holzenberger \
-*35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026), Demonstrations Track, Bremen, Germany* \
-[paper](https://arxiv.org/abs/2605.26956) · [demo](/LELA_Demo.pdf) · [code](https://github.com/dig-team/LELA)
+*35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026), Demo Track, Bremen, Germany, pages 8401–8405* \
+[paper](https://www.ijcai.org/proceedings/2026/0966.pdf) · [doi](https://doi.org/10.24963/ijcai.2026/966) · [arXiv](https://arxiv.org/abs/2605.26956) · [demo](/LELA_Demo.pdf) · [code](https://github.com/dig-team/LELA)
 
 <details>
 <summary><span>Abstract</span></summary>
@@ -63,16 +63,19 @@ Entity linking is a key component of many downstream NLP systems, yet existing a
 <summary><span>BibTeX</span></summary>
 
 ```bibtex
-@inproceedings{haffoudhi2026lelademo,
+@inproceedings{ijcai2026p966,
   title     = {{LELA}: An End-to-end {LLM}-based Entity Linking Framework with Zero-shot Domain Adaptation},
-  author    = {Haffoudhi, Samy and Dobri{\v{c}}i{\'{c}}, Nikola and Suchanek, Fabian M. and Holzenberger, Nils},
+  author    = {Haffoudhi, Samy and Dobri{\v{c}}i{\'{c}}, Nikola and Suchanek, Fabian and Holzenberger, Nils},
   booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
-               Artificial Intelligence, {IJCAI-ECAI} 2026},
+               Artificial Intelligence, {IJCAI-26}},
   publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  note      = {Demonstrations Track},
+  editor    = {Diego Calvanese},
+  pages     = {8401--8405},
   year      = {2026},
   month     = {8},
-  url       = {https://arxiv.org/abs/2605.26956}
+  note      = {Demo Track},
+  doi       = {10.24963/ijcai.2026/966},
+  url       = {https://doi.org/10.24963/ijcai.2026/966},
 }
 ```
 
