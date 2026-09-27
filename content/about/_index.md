@@ -39,6 +39,7 @@ France. I created this site because I wanted to share my academic work, personal
 
 ## Work experience
 
+* **Visiting PhD Student**, [Sapienza NLP Group](https://nlp.uniroma1.it/), Sapienza University of Rome, Italy, 2026 (3 months)
 * **Doctoral Researcher**, Télécom Paris, Plateau de Saclay, France, 2025-2028 (expected)
 * **Student Software Engineer** (part time), Microsoft, Lyngby, Denmark, 2023-2024 (1.5 years)
 * **Research internship in deep learning for audio processing**, Thales R&T, Plateau de Saclay, France, 2022 (5 months)

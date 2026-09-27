@@ -15,7 +15,7 @@ comment = false
 
 ## 📖 Currently reading
 
-* **The Picture of Dorian Gray**, Oscar Wilde
+* **Meditations**, Marcus Aurelius
 
 ## Read so far
 
@@ -35,6 +35,7 @@ comment = false
 * **The Fall**, Albert Camus
 * **Nausea**, Jean-Paul Sartre
 * **East of Eden**, John Steinbeck
+* **The Picture of Dorian Gray**, Oscar Wilde
 
 ### Science fiction / Fantasy
 
