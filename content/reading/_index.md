@@ -15,7 +15,7 @@ comment = false
 
 ## 📖 Currently reading
 
-* **Meditations**, Marcus Aurelius
+* **Inferno**, Dante Alighieri
 
 ## Read so far
 
@@ -64,3 +64,4 @@ comment = false
 * **Nichomachean Ethics**, Aristote
 * **A t-on besoin d'un chef?**, Mehdi Moussaïd
 * **The Selfish Gene**, Richard Dawkins
+* **Meditations**, Marcus Aurelius
