@@ -15,7 +15,7 @@ comment = false
 
 ## 📖 Currently reading
 
-* **Inferno**, Dante Alighieri
+* **Solaris**, Stanisław Lem
 
 ## Read so far
 
@@ -36,6 +36,7 @@ comment = false
 * **Nausea**, Jean-Paul Sartre
 * **East of Eden**, John Steinbeck
 * **The Picture of Dorian Gray**, Oscar Wilde
+* **Inferno**, Dante Alighieri
 
 ### Science fiction / Fantasy
 
