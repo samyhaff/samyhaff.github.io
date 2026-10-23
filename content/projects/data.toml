@@ -4,8 +4,8 @@ desc = "Entity linking (mapping ambiguous mentions in text to entities in a know
 tags = ["llm", "entity-linking", "entity-disambiguation", "nlp"]
 img = "/img/lela.png"
 links = [
-  { name = "ISWC 2026 paper", url = "https://arxiv.org/abs/2601.05192" },
-  { name = "IJCAI 2026 demo", url = "https://arxiv.org/abs/2605.26956" },
+  { name = "ISWC 2026 paper", url = "https://doi.org/10.1007/978-3-032-42026-8_1" },
+  { name = "IJCAI 2026 demo", url = "https://doi.org/10.24963/ijcai.2026/966" },
   { name = "code", url = "https://github.com/dig-team/LELA" },
 ]
 

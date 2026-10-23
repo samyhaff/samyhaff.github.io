@@ -16,10 +16,10 @@ My publications, most recent first. See also my [Google Scholar profile](https:/
 
 ## 2026
 
-**LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation** \
+**LELA: An LLM-Based Entity Linking Approach with Zero-Shot Domain Adaptation** \
 **Samy Haffoudhi**, Fabian M. Suchanek, Nils Holzenberger \
-*International Semantic Web Conference (ISWC), Bari, Italy, 2026* \
-[paper](https://arxiv.org/abs/2601.05192) · [code](https://github.com/dig-team/LELA)
+*The Semantic Web – ISWC 2026, Bari, Italy, LNCS vol. 17127, pages 3–24* \
+[paper](https://doi.org/10.1007/978-3-032-42026-8_1) · [arXiv](https://arxiv.org/abs/2601.05192) · [code](https://github.com/dig-team/LELA)
 
 <details>
 <summary><span>Abstract</span></summary>
@@ -33,15 +33,18 @@ Entity linking (mapping ambiguous mentions in text to entities in a knowledge ba
 
 ```bibtex
 @inproceedings{haffoudhi2026lela,
-  title     = {{LELA}: an {LLM}-based Entity Linking Approach with Zero-Shot Domain Adaptation},
+  title     = {{LELA}: An {LLM}-Based Entity Linking Approach with Zero-Shot Domain Adaptation},
   author    = {Haffoudhi, Samy and Suchanek, Fabian M. and Holzenberger, Nils},
-  booktitle = {The Semantic Web -- ISWC 2026: 25th International Semantic Web Conference,
-               Bari, Italy, October 25--29, 2026, Proceedings},
+  booktitle = {The Semantic Web -- {ISWC} 2026},
   series    = {Lecture Notes in Computer Science},
-  publisher = {Springer},
+  volume    = {17127},
+  pages     = {3--24},
+  publisher = {Springer Nature Switzerland},
   address   = {Cham},
   year      = {2026},
-  url       = {https://arxiv.org/abs/2601.05192}
+  isbn      = {978-3-032-42026-8},
+  doi       = {10.1007/978-3-032-42026-8_1},
+  url       = {https://doi.org/10.1007/978-3-032-42026-8_1}
 }
 ```
 
@@ -63,19 +66,19 @@ Entity linking is a key component of many downstream NLP systems, yet existing a
 <summary><span>BibTeX</span></summary>
 
 ```bibtex
-@inproceedings{ijcai2026p966,
+@inproceedings{haffoudhi2026lelademo,
   title     = {{LELA}: An End-to-end {LLM}-based Entity Linking Framework with Zero-shot Domain Adaptation},
   author    = {Haffoudhi, Samy and Dobri{\v{c}}i{\'{c}}, Nikola and Suchanek, Fabian and Holzenberger, Nils},
   booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
                Artificial Intelligence, {IJCAI-26}},
+  editor    = {Calvanese, Diego},
   publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  editor    = {Diego Calvanese},
   pages     = {8401--8405},
   year      = {2026},
-  month     = {8},
+  month     = aug,
   note      = {Demo Track},
   doi       = {10.24963/ijcai.2026/966},
-  url       = {https://doi.org/10.24963/ijcai.2026/966},
+  url       = {https://doi.org/10.24963/ijcai.2026/966}
 }
 ```
 
