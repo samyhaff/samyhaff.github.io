@@ -53,7 +53,7 @@ Entity linking (mapping ambiguous mentions in text to entities in a knowledge ba
 **LELA: An End-to-end LLM-based Entity Linking Framework with Zero-shot Domain Adaptation** \
 **Samy Haffoudhi**, Nikola Dobričić, Fabian M. Suchanek, Nils Holzenberger \
 *35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026), Demo Track, Bremen, Germany, pages 8401–8405* \
-[paper](https://www.ijcai.org/proceedings/2026/0966.pdf) · [doi](https://doi.org/10.24963/ijcai.2026/966) · [arXiv](https://arxiv.org/abs/2605.26956) · [demo](/LELA_Demo.pdf) · [code](https://github.com/dig-team/LELA)
+[paper](https://www.ijcai.org/proceedings/2026/0966.pdf) · [arXiv](https://arxiv.org/abs/2605.26956) · [code](https://github.com/dig-team/LELA)
 
 <details>
 <summary><span>Abstract</span></summary>
