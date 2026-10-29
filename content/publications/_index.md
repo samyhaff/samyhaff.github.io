@@ -19,7 +19,7 @@ My publications, most recent first. See also my [Google Scholar profile](https:/
 **LELA: An LLM-Based Entity Linking Approach with Zero-Shot Domain Adaptation** \
 **Samy Haffoudhi**, Fabian M. Suchanek, Nils Holzenberger \
 *The Semantic Web – ISWC 2026, Bari, Italy, LNCS vol. 17127, pages 3–24* \
-[paper](https://doi.org/10.1007/978-3-032-42026-8_1) · [arXiv](https://arxiv.org/abs/2601.05192) · [code](https://github.com/dig-team/LELA)
+[paper](https://doi.org/10.1007/978-3-032-42026-8_1) · [arXiv](https://arxiv.org/abs/2601.05192) · [code](https://github.com/dig-team/LELA) · [slides](/lela_slides.pdf)
 
 <details>
 <summary><span>Abstract</span></summary>
