@@ -6,7 +6,7 @@ I'm Samy Haffoudhi, a second-year Ph.D. student at Télécom Paris, Institut Pol
 
 I graduated from Centrale Nantes in 2024 and hold a master's degree in Computer Science from the Technical University of Denmark (DTU).
 
-My research focuses on entity disambiguation, large language models, and knowledge graphs.
+My research focuses on entity linking, large language models, and knowledge graphs.
 
 Feel free to reach out for possible collaborations or questions regarding my research!
 
