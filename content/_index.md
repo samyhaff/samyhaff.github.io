@@ -12,6 +12,7 @@ Feel free to reach out for possible collaborations or questions regarding my res
 
 ## News
 
+* **November 2026** — 🎉 [When Does Reasoning Help Entity Disambiguation](/publications) accepted to Findings of EACL 2027.
 * **October 2026**— 🎤 Presented [LELA](/publications) at ISWC 2026 in Bari.
 * **September 2026** — ✈️ Starting a 3-month research visit at the [Sapienza NLP group](https://nlp.uniroma1.it/), Sapienza University of Rome (September–November).
 * **August 2026** — 🎤 Presented the [LELA demo](/publications) at IJCAI-ECAI 2026 in Bremen.
