@@ -14,6 +14,13 @@ comment = false
 
 My publications, most recent first. See also my [Google Scholar profile](https://scholar.google.com/citations?user=YI7i_z8AAAAJ&hl=fr) and my [projects](/projects).
 
+## 2027
+
+**When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift** \
+**Samy Haffoudhi**, Fabian M. Suchanek, Nils Holzenberger \
+*Findings of the Association for Computational Linguistics: EACL 2027* \
+paper and code coming soon
+
 ## 2026
 
 **LELA: An LLM-Based Entity Linking Approach with Zero-Shot Domain Adaptation** \
