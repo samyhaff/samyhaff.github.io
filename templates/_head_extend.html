@@ -1,0 +1,19 @@
+<style>
+  /* projects: stack the image above the text on narrow screens */
+  @media screen and (max-width: 600px) {
+    body.projects .proj .content {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    body.projects .proj .content img {
+      order: -1;
+      align-self: center;
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+      max-height: none;
+      margin: 0 0 1em;
+    }
+  }
+</style>
