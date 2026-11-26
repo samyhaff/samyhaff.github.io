@@ -19,7 +19,32 @@ My publications, most recent first. See also my [Google Scholar profile](https:/
 **When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift** \
 **Samy Haffoudhi**, Fabian M. Suchanek, Nils Holzenberger \
 *Findings of the Association for Computational Linguistics: EACL 2027* \
-paper and code coming soon
+[arXiv](https://arxiv.org/abs/2611.30334) · [code](https://github.com/samyhaff/ed-study) · [models](https://huggingface.co/collections/samyhaff/ed-study)
+
+<details>
+<summary><span>Abstract</span></summary>
+
+Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving state-of-the-art performance. Notably, reasoning LLMs have been shown to perform entity disambiguation in a true zero-shot fashion, generalizing across knowledge bases and domains. However, it is unclear whether this capability survives, or remains competitive, with smaller LLMs, where entity disambiguation has typically relied on reranking rather than reasoning. We ask when reasoning is worth its cost at small scale. We compare pointwise, listwise, and reasoning-based candidate-selection components within a classical coarse-to-fine entity disambiguation pipeline, across the classical, few-shot and true zero-shot settings. The reasoning paradigm is trained with distillation and reinforcement learning recipes. The benefit of reasoning grows with domain shift: negligible in-domain, decisive in the true zero-shot setting. We show that two distinct factors are at work: the reranker's uncertainty over the candidates locates where the paradigms disagree, while shift governs which is right when they do.
+
+</details>
+
+<details>
+<summary><span>BibTeX</span></summary>
+
+```bibtex
+@inproceedings{haffoudhi2027reasoning,
+  title     = {When Does Reasoning Help Entity Disambiguation? Small {LLMs} In-Domain and Under Shift},
+  author    = {Haffoudhi, Samy and Suchanek, Fabian M. and Holzenberger, Nils},
+  booktitle = {Findings of the Association for Computational Linguistics: {EACL} 2027},
+  year      = {2027},
+  eprint    = {2611.30334},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2611.30334}
+}
+```
+
+</details>
 
 ## 2026
 
